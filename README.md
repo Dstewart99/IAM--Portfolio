@@ -6,8 +6,9 @@
 Completed hands-on labs: Entra ID PIM/CA, Okta SSO/MFA, JML workflows.
 
 ### ✅ Azure Entra ID Labs
-- **[Users & Conditional Access](screenshots/IMG_0795.jpeg)**: Created test users, enforced MFA rules, tested policy blocking.
-- **[PIM Just-in-Time](screenshots/pim-demo.png)**: Activated Global Admin role (screenshot coming).
+![Entra ID Users & CA](screenshots/IMG_0795.jpeg)
+**Created test users + Conditional Access MFA policy** (tested blocking non-compliant device)
+
 
 ### ✅ Okta Labs  
 - **[SSO App Integration](screenshots/okta-sso.png)**: SAML setup for mock app (screenshot coming).
