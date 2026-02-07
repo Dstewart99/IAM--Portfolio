@@ -20,5 +20,6 @@
 
 ![Entra ID – Users blade](Project.png)
 ![Entra ID – Users list](Screenshot.png)
-![Entra ID – New user wizard](week2/Screenshot3.png)
+![Entra ID – New user wizard](Screenshot3.png)
 
+week2/Screenshot3.png
