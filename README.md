@@ -18,8 +18,12 @@ Completed hands-on labs: Entra ID PIM/CA, Okta SSO/MFA, JML workflows.
 
 ## 📈 Study Progress
 
+## 📈 Study Progress
+
 ### Day 1 – IAM Foundations
-![Day 1 Notes](screenshots/IMG_5994.jpeg)
-Completed Identity vs Authentication vs Authorization vs Governance + JML flashcards.
+- Defined Identity, Authentication, Authorization, Governance.
+- Learned Joiner–Mover–Leaver (JML) lifecycle.
+- Created and reviewed 8 IAM flashcards.
+
 
 
