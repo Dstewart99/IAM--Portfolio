@@ -15,7 +15,6 @@
   - Usage location: `United States`.
 - Selected **Review + create → Create** to provision the new internal user account.
 
-### 📸 Day 6 Screenshots
 
 ### 📸 Day 6 Screenshots
 
