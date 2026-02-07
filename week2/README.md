@@ -17,7 +17,7 @@
 
 ### 📸 Day 6 Screenshots
 
-![Entra ID – Users blade](week2/Project.png)
-![Entra ID – New user creation](week2/Screenshot.png)
-![Entra ID – User properties](week2/Screenshot3.png)
-![Entra ID – User created](week2/Screenshot4.png)
+![Screenshots](week2/Project.png)
+![Screenshots](week2/Screenshot.png)
+![Screenshots](week2/Screenshot3.png)
+![Screenshots](week2/Screenshot4.png)
