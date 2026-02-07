@@ -14,3 +14,12 @@
   - User type: **Member** (internal employee; Guest would be used for external collaborators and has more restricted capabilities).
   - Usage location: `United States`.
 - Selected **Review + create → Create** to provision the new internal user account.
+
+---
+
+### 📸 Day 6 Screenshots
+
+![Entra ID – Users blade](week2/Project.png)
+![Entra ID – New user creation](week2/Screenshot.png)
+![Entra ID – User properties](week2/Screenshot3.png)
+![Entra ID – User created](week2/Screenshot4.png)
