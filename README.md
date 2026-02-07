@@ -61,11 +61,59 @@ These are labs I am completing as part of my 30-day IAM plan to build Okta exper
 
 ---
 
-## 📘 30-Day IAM Study Progress
-
-### Week 1 – IAM Foundations
 
 
+## 📂 Weekly Progress (WEEK 1)
+**Goal:** Build a strong foundation in core IAM concepts and language.
+
+### 🔥 Topics Covered
+- IAM fundamentals: Identity, Authentication, Authorization, Governance, JML lifecycle.
+- Access models: Principle of Least Privilege, Role-Based Access Control (RBAC), groups vs roles.
+- Risk concepts: Segregation of Duties (SoD), excessive access, over‑provisioning, and real‑world risky access scenarios.
+- Access reviews: Purpose of access certifications, why auditors require periodic reviews, and a basic access review workflow (who reviews what and how often).
+- Identity Governance (IGA): How IGA extends IAM with approvals, policies, reviews, attestation, and SoD checks, plus a concise summary of “What is Identity Governance?”
+
+
+## 📂 Weekly Progress (WEEK 2)
+**Goal:** Get comfortable with Microsoft Entra ID objects, policies, admin roles, and identity protection features.
+
+### 🔥 Topics Covered
+- Entra ID basics: Users, groups, devices, and service principals, plus hands‑on practice creating test users and groups.
+- Conditional Access: What it is, where it applies, MFA enforcement, and device/location‑based policies, including a sample policy written in plain English.
+- Privileged Identity Management (PIM): Just‑in‑time vs standing admin access, eligible vs active roles, and the steps to activate a role through PIM.
+- Azure roles: Common built‑in roles (Global Administrator, User Administrator, Security Administrator), role assignments vs group‑b
+
+## 📂 Weekly Progress (WEEK 3)
+**Goal:** Get comfortable with Okta as an SSO and MFA platform.
+
+### 🔥 Topics Covered
+- Okta users and groups: Navigated the Okta Admin Console, created users and groups, and compared the user/group experience with Entra ID.
+- App integrations and SSO basics: Reviewed what SSO is (SAML/OIDC at a high level), added a sample application to Okta, and documented the SSO flow in 4–5 steps.
+- MFA policies: Explored Okta MFA factors, created or edited an MFA policy (who, when, which factor), and compared Okta MFA with Entra Conditional Access in a small table.
+- Group rules and automation: Configured an Okta group rule to auto‑assign groups based on user attributes and tied this to JML automation.
+- Okta vs Entra ID: Summarized key differences in integration style, strengths/use cases, and which system is treated as the “source of truth,” captured in a two‑column comparison.
+
+
+## 📂 Weekly Progress (WEEK 4)
+**Goal:** Connect IAM tools and concepts to real‑world IAM analyst responsibilities.
+
+### 🔥 Topics Covered
+- IAM analyst daily work: Described typical tasks such as handling JML tickets, managing access requests and approvals, and performing access reviews and cleanup in a “day in the life” outline.
+- Access request workflows: Broke down the request → approval → provisioning → verification flow and identified key roles involved (requestor, manager, approver, IAM team).
+- Birthright vs privileged access: Defined birthright access with examples (email, baseline apps) and privileged access with examples (admin portals, security tools), then mapped current help desk permissions to each.
+- Insider risk and access abuse: Reviewed types of insider threats (malicious, accidental, compromised accounts) and wrote scenarios showing how IAM controls reduce risk.
+- Compliance basics: Covered high‑level concepts for SOX, HIPAA, and audits, and explained how IAM supports compliance through JML, least privilege, and periodic access reviews.
+
+
+## 📂 Weekly Progress (WEEK 5)
+**Goal:** Turn skills into interviews with strong stories, a focused resume, and practiced scenarios.
+
+### 🔥 Topics Covered
+- IAM storytelling: Wrote and practiced a 60–90 second explanation of “What is IAM?” and “What does an IAM analyst do?” out loud.
+- Scenario practice: Prepared structured answers (Situation → Risk → Action → Outcome) for common IAM scenarios like inappropriate access requests, urgent admin rights, and discovering excessive access.
+- IAM resume bullets: Translated current help desk work into IAM language (JML, MFA support, group/access management) and added quantified bullets highlighting Entra and Okta labs.
+- Full review: Revisited IAM fundamentals, Entra ID labs, and Okta labs, tightening and clarifying notes where needed.
+- Mock interview: Practiced core interview questions (“Tell me about yourself” with an IAM angle, JML, least privilege, Okta vs Entra ID) and recorded a mock interview for self‑review.
 
 
 ---
