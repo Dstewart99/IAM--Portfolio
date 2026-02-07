@@ -23,3 +23,9 @@
 ![Entra ID – New user wizard](Screenshot3.png)
 
 
+### 📸 Day 6 Screenshots
+
+- [Project overview](Project.png)
+- [Users list](Screenshot.png)
+- [New user wizard](Screenshot3.png)
+- [User created confirmation](Screenshot4.png)
