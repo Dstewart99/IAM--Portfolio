@@ -18,13 +18,6 @@
 
 ### 📸 Day 6 Screenshots
 
-![Entra ID – Users blade](Project.png)
-![Entra ID – Users list](Screenshot.png)
-![Entra ID – New user wizard](Screenshot3.png)
-
-
-### 📸 Day 6 Screenshots
-
 - [Project overview](Project.png)
 - [Users list](Screenshot.png)
 - [New user wizard](Screenshot3.png)
