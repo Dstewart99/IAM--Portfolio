@@ -66,13 +66,16 @@ These are labs I am completing as part of my 30-day IAM plan to build Okta exper
 ## 📂 Weekly Progress (WEEK 1)
 **Goal:** Build a strong foundation in core IAM concepts and language.
 
+- [Week 1 – IAM Foundations & MFA](week1/README.md)
+
+
 ### 🔥 Topics Covered
 - IAM fundamentals: Identity, Authentication, Authorization, Governance, JML lifecycle.
 - Access models: Principle of Least Privilege, Role-Based Access Control (RBAC), groups vs roles.
 - Risk concepts: Segregation of Duties (SoD), excessive access, over‑provisioning, and real‑world risky access scenarios.
 - Access reviews: Purpose of access certifications, why auditors require periodic reviews, and a basic access review workflow (who reviews what and how often).
 - Identity Governance (IGA): How IGA extends IAM with approvals, policies, reviews, attestation, and SoD checks, plus a concise summary of “What is Identity Governance?”
-
+  
 
 ## 📂 Weekly Progress (WEEK 2)
 **Goal:** Get comfortable with Microsoft Entra ID objects, policies, admin roles, and identity protection features.
