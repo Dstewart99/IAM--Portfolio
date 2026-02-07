@@ -22,3 +22,8 @@
 - [Users list](Screenshot.png)
 - [New user wizard](Screenshot3.png)
 
+- Created a security group named `IAM-Test-Employees` in **Entra ID → Groups → All groups → New group** with type **Security** and assigned membership.
+- Added the new internal user (`Zjohnson`) as a member of this group to use later for group-based access assignments and Conditional Access tests.
+
+![groups](Create_group.png)
+
