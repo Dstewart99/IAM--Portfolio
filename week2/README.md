@@ -61,6 +61,15 @@ Day 7 focuses on using Conditional Access to require MFA when employees access a
 -----------------------------------------------------------
 
 ### Day 8 – Privileged Identity Management (PIM)
+**Just-in-time access vs standing admin access**
+
+- Just-in-time access: Admin roles are assigned as eligible and only activated for a limited time when needed, often with MFA, justification, or approval.  
+- Standing admin access: Admin roles are permanently active, so elevated permissions are always on and available to the account.  
+
+**Eligible vs active roles**
+
+- Eligible role: The user can request activation of the role when they need it, but does not have the admin permissions until it is activated.  
+- Active role: The user already has the role’s permissions without any activation step and can use them immediately. 
 
 Day 8 focuses on using Microsoft Entra Privileged Identity Management to replace standing admin access with just‑in‑time elevation for sensitive roles.
 
@@ -82,9 +91,7 @@ Day 8 focuses on using Microsoft Entra Privileged Identity Management to replace
 3. Choose a short **duration**, enter a reason like “Day 8 PIM lab – test JIT access,” and complete MFA if prompted. 
 4. Click **Activate**, then verify Security Reader appears on the **Active assignments** tab with the option to **Deactivate**. 
 5. (Optional) Click **Deactivate** when finished to remove the elevated Security Reader access before the end time. 
-### Day 8 Screenshots
 
-### Day 8 Screenshots
 
 ### Day 8 Screenshots
 
@@ -92,6 +99,7 @@ Day 8 focuses on using Microsoft Entra Privileged Identity Management to replace
 - [PIM – Security Reader active assignment (screenshot)](Active.png)
 
 
+### Day 9 – Azure / Entra Roles
 
 
 
