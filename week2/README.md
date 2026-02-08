@@ -101,7 +101,7 @@ Day 8 focuses on using Microsoft Entra Privileged Identity Management to replace
 
 ### Day 9 – Entra Roles with Role-Assignable Groups
 
-Day 9 focuses on assigning Microsoft Entra admin roles through a role-assignable group instead of directly to a user, so access is easier to manage and audit.
+Focuses on assigning Microsoft Entra admin roles through a role-assignable group instead of directly to a user, so access is easier to manage and audit.
 
 **Goal:** Use a security group to grant the User Administrator role to members, then verify that membership controls who has that admin access.
 
@@ -127,6 +127,8 @@ Day 9 focuses on assigning Microsoft Entra admin roles through a role-assignable
 - [IAM-User-Admins role-assignable group (screenshot)](Groups.png)
 - [User Administrator assigned to IAM-User-Admins group (screenshot)](IAM-User-Admins.png)
 - [Test user showing inherited User Administrator role (screenshot)](proof-user-added.png)
+
+- 
 
 
 
