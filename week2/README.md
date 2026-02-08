@@ -56,3 +56,37 @@ Day 7 focuses on using Conditional Access to require MFA when employees access a
 - [Microsoft Service Trust selected as target app (screenshot)](Target_app.png)
 - [Grant controls requiring MFA (screenshot)](Grant.png)
 
+
+
+-----------------------------------------------------------
+
+### Day 8 – Privileged Identity Management (PIM)
+
+Day 8 focuses on using Microsoft Entra Privileged Identity Management to replace standing admin access with just‑in‑time elevation for sensitive roles.
+
+- Reviewed how PIM provides **just‑in‑time** admin access so elevated permissions are only active when needed instead of being permanently assigned. 
+- Learned the difference between eligible assignments (can be activated on demand) and active assignments (admin rights already on without any activation step). 
+
+**Steps – Make Security Reader eligible in PIM**
+
+1. In the Microsoft Entra admin center, go to **Identity Governance → Privileged Identity Management → Microsoft Entra roles**. 
+2. Select **Roles**, search for **Security Reader**, and open the role. 
+3. Click **Assignments → Add assignments**. 
+4. Under **Select members**, choose my Dee Secure admin account and click **Next**. 
+5. On the **Settings** tab, set **Assignment type = Eligible** and leave it permanently eligible for this lab, then click **Assign**.
+
+**Steps – Activate the eligible role (just‑in‑time)**
+
+1. Go to **Privileged Identity Management → My roles**. 
+2. On the **Eligible assignments** tab, find **Security Reader** and click **Activate**. 
+3. Choose a short **duration**, enter a reason like “Day 8 PIM lab – test JIT access,” and complete MFA if prompted. 
+4. Click **Activate**, then verify Security Reader appears on the **Active assignments** tab with the option to **Deactivate**. 
+5. (Optional) Click **Deactivate** when finished to remove the elevated Security Reader access before the end time. 
+### Day 8 Screenshots
+
+- [PIM – Security Reader eligible assignment (screenshot)](week2/Security_Reader.png)
+- [PIM – Security Reader active assignment (screenshot)](week2/Active.png)
+
+
+
+
