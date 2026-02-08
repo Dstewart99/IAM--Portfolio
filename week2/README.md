@@ -125,7 +125,7 @@ Day 9 focuses on assigning Microsoft Entra admin roles through a role-assignable
 ### Day 9 Screenshots
 
 - [IAM-User-Admins role-assignable group (screenshot)](Groups.png)
-- [User Administrator assigned to IAM-User-Admins group (screenshot)](week2/IAM-User-Admins.png)
+- [User Administrator assigned to IAM-User-Admins group (screenshot)](IAM-User-Admins.png)
 
 
 
