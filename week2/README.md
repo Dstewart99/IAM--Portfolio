@@ -128,7 +128,31 @@ Focuses on assigning Microsoft Entra admin roles through a role-assignable group
 - [User Administrator assigned to IAM-User-Admins group (screenshot)](IAM-User-Admins.png)
 - [Test user showing inherited User Administrator role (screenshot)](proof-user-added.png)
 
-- 
+----
+### Day 10 – Identity Protection
+
+Day 10 focuses on Microsoft Entra ID Protection: how user and sign-in risk are detected, and how risk-based policies can automatically protect accounts.
+
+**Key concepts**
+
+- User risk: How likely it is that a user account is compromised based on multiple signals over time.
+- Sign-in risk: How risky a specific login attempt is based on IP, location, device, and behavior.
+- Risk detections feed reports like Risky users and Risky sign-ins and can trigger automatic remediation through policies.
+
+**Sign-in risk and user risk policies**
+
+- Sign-in risk policy: When a sign-in is detected as risky, require extra controls (such as MFA) or block access entirely.
+- User risk policy: When a user’s account is considered risky, require remediation (such as a secure password reset) before allowing normal access.
+
+**Examples of risky sign-in detections**
+
+- Unfamiliar sign-in properties: Sign-in from a new location/device/IP that doesn’t match the user’s normal pattern.
+- Activity from an anonymous IP address: Sign-in through Tor or another anonymizing service.
+- Impossible or atypical travel: Back-to-back sign-ins from two distant locations in a timeframe that isn’t physically possible.
+- (Optional) Leaked credentials: The user’s username and password were found in a known data breach.
+- (Optional) Password spray attack: Many accounts are hit with the same common password in a short period.
+
+
 
 
 
