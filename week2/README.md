@@ -89,7 +89,7 @@ Day 8 focuses on using Microsoft Entra Privileged Identity Management to replace
 ### Day 8 Screenshots
 
 - [PIM – Security Reader eligible assignment (screenshot)](Security_Reader.png)
-- [PIM – Security Reader active assignment (screenshot)](PIM_active_security_reader.png)
+- [PIM – Security Reader active assignment (screenshot)](Active.png)
 
 
 
