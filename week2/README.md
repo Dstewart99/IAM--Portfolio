@@ -97,9 +97,35 @@ Day 8 focuses on using Microsoft Entra Privileged Identity Management to replace
 
 - [PIM – Security Reader eligible assignment (screenshot)](Security_Reader.png)
 - [PIM – Security Reader active assignment (screenshot)](Active.png)
+--------
+
+### Day 9 – Entra Roles with Role-Assignable Groups
+
+Day 9 focuses on assigning Microsoft Entra admin roles through a role-assignable group instead of directly to a user, so access is easier to manage and audit.
+
+**Goal:** Use a security group to grant the User Administrator role to members, then verify that membership controls who has that admin access.
+
+**Steps – Create a role-assignable group**
+
+1. In the Microsoft Entra admin center, go to **Identity → Groups → All groups → New group**.
+2. Set **Group type = Security**, name it `IAM-User-Admins`, and add a description like “Role-assignable group for User Administrator lab.”
+3. Turn **Microsoft Entra roles can be assigned to the group** to **Yes**.
+4. Under **Members**, add my test user account to the `IAM-User-Admins` group before clicking **Create**.
+5. Click **Create** to finish creating the role-assignable group with my test user already as a member.
+6. In **Identity → Users → [that test user] → Assigned roles**, verify that the user now has **User Administrator** via the group.  
 
 
-### Day 9 – Azure / Entra Roles
+**What I learned**
+
+- Admin roles like User Administrator can be assigned directly to users or to role-assignable groups.  
+- Using a group (such as `IAM-User-Admins`) makes it easier for an IAM analyst to grant and remove admin access by changing group membership instead of editing role assignments on each user.  
+- This pattern lines up with least privilege and governance: the group represents an approved admin responsibility, and only members of that group receive the User Administrator role.
+
+
+### Day 9 Screenshots
+
+- [IAM-User-Admins role-assignable group (screenshot)](Groups.png)
+- [User Administrator assigned to IAM-User-Admins group (screenshot)](IAM-User-Admins_role.png)
 
 
 
