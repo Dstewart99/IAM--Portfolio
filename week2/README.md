@@ -1,4 +1,7 @@
-### Day 6 – Entra ID Basics
+# Week 2 – Entra ID Labs
+
+
+## Day 6 focuses on creating internal users and security groups that I’ll use later for Conditional Access and PIM labs.
 
 **Task: Create a new internal user in Microsoft Entra ID**
 
@@ -16,15 +19,18 @@
 - Selected **Review + create → Create** to provision the new internal user account.
 
 
+
+
+
+
+- Created a security group named `IAM-Test-Employees` in **Entra ID → Groups → All groups → New group** with type **Security** and assigned membership.
+- Added the new internal user (`Zjohnson`) as a member of this group to use later for group-based access assignments and Conditional Access tests.
+
 ### 📸 Day 6 Screenshots
 
 - [Project overview](Project.png)
 - [Users list](Screenshot.png)
 - [New user wizard](Screenshot3.png)
-
-- Created a security group named `IAM-Test-Employees` in **Entra ID → Groups → All groups → New group** with type **Security** and assigned membership.
-- Added the new internal user (`Zjohnson`) as a member of this group to use later for group-based access assignments and Conditional Access tests.
-
-[Groups – create security group](Create_group.png)
+- [Groups – create security group](Create_group.png)
 
 
