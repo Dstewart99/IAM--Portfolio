@@ -28,7 +28,8 @@
 
 ### 📸 Day 6 Screenshots
 
-- [Project overview](Project.png)
+- [Create user screen (screenshot)](Project.png)
+
 - [Users list](Screenshot.png)
 - [Review + create screen (screenshot)](Screenshot3.png)
 
