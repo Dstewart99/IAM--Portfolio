@@ -84,7 +84,8 @@ These are labs I am completing as part of my 30-day IAM plan to build Okta exper
 - Entra ID basics: Users, groups, devices, and service principals, plus hands‑on practice creating test users and groups.
 - Conditional Access: What it is, where it applies, MFA enforcement, and device/location‑based policies, including a sample policy written in plain English.
 - Privileged Identity Management (PIM): Just‑in‑time vs standing admin access, eligible vs active roles, and the steps to activate a role through PIM.
-- Azure roles: Common built‑in roles (Global Administrator, User Administrator, Security Administrator), role assignments vs group‑b
+- Azure roles: Used a role-assignable security group (`IAM-User-Admins`) to grant the User Administrator role, showing how group-based role assignments make admin access easier to manage and audit than direct user assignments.
+
 
 ## 📂 Weekly Progress (WEEK 3)
 **Goal:** Get comfortable with Okta as an SSO and MFA platform.
