@@ -30,7 +30,8 @@
 
 - [Project overview](Project.png)
 - [Users list](Screenshot.png)
-- [New user wizard](Screenshot3.png)
+- [Review + create screen (screenshot)](Screenshot3.png)
+
 - [Groups – create security group](Create_group.png)
 
 
