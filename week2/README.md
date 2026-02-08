@@ -84,8 +84,11 @@ Day 8 focuses on using Microsoft Entra Privileged Identity Management to replace
 5. (Optional) Click **Deactivate** when finished to remove the elevated Security Reader access before the end time. 
 ### Day 8 Screenshots
 
-- [PIM – Security Reader eligible assignment (screenshot)](week2/Security_Reader.png)
-- [PIM – Security Reader active assignment (screenshot)](week2/Active.png)
+### Day 8 Screenshots
+
+- [PIM – Security Reader eligible assignment (screenshot)](SecurityReader.png)
+- [PIM – Security Reader active assignment (screenshot)](Active.png)
+
 
 
 
