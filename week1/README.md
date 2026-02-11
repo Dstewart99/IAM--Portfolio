@@ -1,11 +1,8 @@
 
+# Week 1 – Entra ID Labs
 
 
-
-# Week 2 – Entra ID Labs
-
-
-## Day 6 focuses on creating internal users and security groups that I’ll use later for Conditional Access and PIM labs.
+## Day 1 focuses on creating internal users and security groups that I’ll use later for Conditional Access and PIM labs.
 
 **Task: Create a new internal user in Microsoft Entra ID**
 
@@ -30,7 +27,7 @@
 - Created a security group named `IAM-Test-Employees` in **Entra ID → Groups → All groups → New group** with type **Security** and assigned membership.
 - Added the new internal user (`Zjohnson`) as a member of this group to use later for group-based access assignments and Conditional Access tests.
 
-### 📸 Day 6 Screenshots
+### 📸 Day 1 Screenshots
 
 - [Create user screen (screenshot)](Project.png)
 
@@ -40,9 +37,9 @@
 - [Groups – create security group](Create_group.png)
 
 
-## Day 7 – Conditional Access
+## Day 2 – Conditional Access
 
-Day 7 focuses on using Conditional Access to require MFA when employees access a sensitive Microsoft service.
+Day 2 focuses on using Conditional Access to require MFA when employees access a sensitive Microsoft service.
 
 **Task: Require MFA for IAM-Test-Employees when accessing Microsoft Service Trust**
 
@@ -54,7 +51,7 @@ Day 7 focuses on using Conditional Access to require MFA when employees access a
 - Documented the policy behavior in plain language:  
   “When any user in the `IAM-Test-Employees` group signs in to Microsoft Service Trust, they must complete MFA. If MFA fails, access to the portal is blocked.”
 
-### 📸 Day 7 Screenshots
+### 📸 Day 2 Screenshots
 
 - [Policy targeting IAM-Test-Employees group (screenshot)](IAM-Test-Employees.png)
 - [Microsoft Service Trust selected as target app (screenshot)](Target_app.png)
@@ -64,7 +61,7 @@ Day 7 focuses on using Conditional Access to require MFA when employees access a
 
 -----------------------------------------------------------
 
-### Day 8 – Privileged Identity Management (PIM)
+### Day 3 – Privileged Identity Management (PIM)
 **Just-in-time access vs standing admin access**
 
 - Just-in-time access: Admin roles are assigned as eligible and only activated for a limited time when needed, often with MFA, justification, or approval.  
@@ -75,7 +72,7 @@ Day 7 focuses on using Conditional Access to require MFA when employees access a
 - Eligible role: The user can request activation of the role when they need it, but does not have the admin permissions until it is activated.  
 - Active role: The user already has the role’s permissions without any activation step and can use them immediately. 
 
-Day 8 focuses on using Microsoft Entra Privileged Identity Management to replace standing admin access with just‑in‑time elevation for sensitive roles.
+Day 3 focuses on using Microsoft Entra Privileged Identity Management to replace standing admin access with just‑in‑time elevation for sensitive roles.
 
 - Reviewed how PIM provides **just‑in‑time** admin access so elevated permissions are only active when needed instead of being permanently assigned. 
 - Learned the difference between eligible assignments (can be activated on demand) and active assignments (admin rights already on without any activation step). 
@@ -97,13 +94,13 @@ Day 8 focuses on using Microsoft Entra Privileged Identity Management to replace
 5. (Optional) Click **Deactivate** when finished to remove the elevated Security Reader access before the end time. 
 
 
-### Day 8 Screenshots
+### Day 3 Screenshots
 
 - [PIM – Security Reader eligible assignment (screenshot)](Security_Reader.png)
 - [PIM – Security Reader active assignment (screenshot)](Active.png)
 --------
 
-### Day 9 – Entra Roles with Role-Assignable Groups
+### Day 4 – Entra Roles with Role-Assignable Groups
 
 Focuses on assigning Microsoft Entra admin roles through a role-assignable group instead of directly to a user, so access is easier to manage and audit.
 
@@ -126,14 +123,14 @@ Focuses on assigning Microsoft Entra admin roles through a role-assignable group
 - This pattern lines up with least privilege and governance: the group represents an approved admin responsibility, and only members of that group receive the User Administrator role.
 
 
-### Day 9 Screenshots
+### Day 4 Screenshots
 
 - [IAM-User-Admins role-assignable group (screenshot)](Groups.png)
 - [User Administrator assigned to IAM-User-Admins group (screenshot)](IAM-User-Admins.png)
 - [Test user showing inherited User Administrator role (screenshot)](proof-user-added.png)
 
 ----
-## Day 10 – Exercise: Perform basic Self-Service Password Reset (SSPR) tasks
+## Day 5 – Exercise: Perform basic Self-Service Password Reset (SSPR) tasks
 
 In this exercise I learned where the self-service password reset (SSPR) feature is configured in Microsoft Entra and walked through enabling it for a specific group. 
 
@@ -168,9 +165,9 @@ In this exercise I learned where the self-service password reset (SSPR) feature 
 
 ----
 
-## Day 11 – Perform basic Password Protection tasks
+## Day 6 – Perform basic Password Protection tasks
 
-In this exercise I explored the Microsoft Entra ID password protection capabilities used to enforce stronger passwords and reduce password attack risk. [page:0][web:129]
+In this exercise I explored the Microsoft Entra ID password protection capabilities used to enforce stronger passwords and reduce password attack risk.
 
 ### Task 1 – View lock settings, duration, and threshold values
 
@@ -193,7 +190,7 @@ In this exercise I explored the Microsoft Entra ID password protection capabilit
 [Password protection – smart lockout and custom banned password list (screenshot)](Password_protection.png)
 ----
 
-## Day 12 – Perform basic Multifactor Authentication (MFA) tasks
+## Day 7 – Perform basic Multifactor Authentication (MFA) tasks
 
 In this exercise I explored the MFA setup process in Microsoft Entra ID, including per‑user MFA, service settings, and MFA account lockout options. 
 
