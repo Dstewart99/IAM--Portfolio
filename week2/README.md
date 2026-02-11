@@ -155,18 +155,12 @@ In this exercise I learned where the self-service password reset (SSPR) feature 
 
 ### Subtask 4 – Configure SSPR reset notifications
 
-- Went to **Password reset → Notifications**. [page:0]  
-- Left **Notify users on password reset?** at the default value of **Yes** so users receive an email when their password is reset through SSPR. [page:0][web:106]  
-- Changed **Notify all admins when other admins reset their password?** to **Yes**, then saved the configuration to increase visibility into privileged password reset activity. [page:0][web:106]
+- Went to **Password reset → Notifications**. 
+- Left **Notify users on password reset?** at the default value of **Yes** so users receive an email when their password is reset through SSPR. 
+- Changed **Notify all admins when other admins reset their password?** to **Yes**, then saved the configuration to increase visibility into privileged password reset activity. [SSPR notifications – user and admin email alerts (screenshot)](Notification.png)
 
 
-### Day 10 Screenshots
 
-
-- [Password reset – SSPR authentication methods (screenshot)](SSPR_methods.png)
-- [SSPR reset flow as test user (screenshot)](SSPR_flow.png)
-- [Per-user MFA enabled for test user (screenshot)](MFA_user_enabled.png)
-- [MFA prompt during sign-in (screenshot)](MFA_prompt.png)
 
 
 
