@@ -81,6 +81,9 @@ These are labs I am completing as part of my 30-day IAM plan to build Okta exper
 ## 📂 Weekly Progress (WEEK 2)
 **Goal:** Get comfortable with Microsoft Entra ID objects, policies, admin roles, and identity protection features.
 
+- Week 2 – [Microsoft Entra ID labs](week2/README.md)
+
+
 ### 🔥 Topics Covered
 - Entra ID basics: Users, groups, devices, and service principals, plus hands‑on practice creating test users and groups.
 - Conditional Access: What it is, where it applies, MFA enforcement, and device/location‑based policies, including a sample policy written in plain English.
