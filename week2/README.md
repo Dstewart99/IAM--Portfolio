@@ -162,8 +162,18 @@ In this exercise I learned where the self-service password reset (SSPR) feature 
 
 
 
+----
 
+## Exercise – Perform basic Password Protection tasks
 
+In this exercise I explored how Microsoft Entra ID protects passwords using smart lockout and banned password lists to reduce password-spray and weak password risks. [web:129][web:131][web:136]
+
+### Task 1 – Configure smart lockout and banned passwords
+
+- Opened the **Microsoft Entra admin center** and went to **Protection → Authentication methods → Password protection**. [web:129]  
+- Set **Custom smart lockout** with a **Lockout threshold** of **5** failed sign-in attempts and a **Lockout duration** of **30 seconds**, so repeated bad password attempts quickly trigger a temporary lock. [web:129][web:136]  
+- Enabled a **custom banned password list** and added the words **Contoso**, **London**, and **Widget** to block organization-specific weak passwords from being used. [web:131][web:136]  
+- Set the **Mode** for custom banned passwords to **Enforced** and saved the configuration so these rules actively prevent users from setting passwords that contain those terms. [web:131]
 
 
 
