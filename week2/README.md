@@ -164,7 +164,7 @@ In this exercise I learned where the self-service password reset (SSPR) feature 
 
 ----
 
-## Day 11 – Exercise: Perform basic Password Protection tasks
+## Day 11 – Perform basic Password Protection tasks
 
 In this exercise I explored the Microsoft Entra ID password protection capabilities used to enforce stronger passwords and reduce password attack risk. [page:0][web:129]
 
