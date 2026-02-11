@@ -15,6 +15,7 @@ This repository showcases my hands-on Identity & Access Management (IAM) labs in
 - Disabled accounts and removed group memberships for leavers as part of the Joiner–Mover–Leaver (JML) process, aligning with least-privilege principles.
 - Performed new-hire onboarding by creating accounts, assigning group memberships, and ensuring access to required applications and shared resources as part of the Joiner process.
 ----
+
 ## 🎯 Goal
 
 Document my hands-on identity labs IAM study plan focused on:
@@ -25,7 +26,14 @@ Document my hands-on identity labs IAM study plan focused on:
 - Okta fundamentals (SSO/MFA) through self‑study labs
 
 ---
+## IAM Foundations
 
+Before diving into Entra ID and Okta labs, I documented my core IAM and Identity Governance concepts (identity, authentication, authorization, JML, least privilege, access reviews, and IGA) here:
+
+👉 [View IAM Foundations](IAM-foundations)
+
+
+ ---
 
   
 ## 📂 Weekly Progress (WEEK 1)
