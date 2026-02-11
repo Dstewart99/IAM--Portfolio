@@ -198,7 +198,7 @@ In this exercise I explored the MFA setup process in Microsoft Entra ID, includi
 - Opened the **Microsoft Entra admin center** at `https://entra.microsoft.com`, went to **Identity → Users → All users**, and selected **Per-user MFA** from the top menu. 
 - Picked a lab user account (equivalent to *Zack Johnson*), selected it, and chose **Enable MFA**. 
 - Confirmed the prompt explaining that an enrollment URL can be sent to the user so they can register MFA methods, then selected **Enable** and verified that the user’s status changed to **Enforced**. 
-[MFA – (screenshot)](enabled_disabled.png)
+  Enabled – (screenshot)](enabled_disabled.png)
 
 ### Task 2 – Review MFA service settings
 
