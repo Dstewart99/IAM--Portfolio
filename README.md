@@ -23,22 +23,6 @@ Document my hands-on identity labs and 30-day IAM study plan focused on:
 - Microsoft Entra ID (Azure AD) and Active Directory
 - Okta fundamentals (SSO/MFA) through self‑study labs
 
----
-
-### Lab 1 – Entra Users & Groups
-- Created multiple test Entra ID users and security groups.
-- Assigned users to groups based on role (Helpdesk, Finance, HR).
-- Practiced disabling and re-enabling accounts for movers and leavers.
-
-### Lab 2 – Conditional Access & MFA
-- Built a Conditional Access policy to require MFA for sign-ins from non-compliant or risky locations.
-- Tested sign-ins with several test accounts to verify prompts and blocks.
-- Documented expected vs actual behavior and basic troubleshooting steps.
-
-### Lab 3 – PIM (Privileged Identity Management)
-- Reviewed Global Administrator, User Administrator, and Security Administrator roles.
-- Practiced just-in-time role activation with PIM (eligible → active).
-- Noted how PIM reduces standing admin access and supports least privilege.
 
 ---
 
