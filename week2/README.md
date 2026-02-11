@@ -143,7 +143,8 @@ In this exercise I learned where the self-service password reset (SSPR) feature 
 
 - From **Password reset → Authentication methods**, set **Number of methods required to reset** to **1**, meaning users must verify with one authentication method before they can reset their password (the password itself does not count as a method). 
 - Selected **Email**, **Mobile phone**, and **Mobile app code** as the **Methods available to users** so they have multiple options for verification. 
-- Saved the configuration, completing the basic setup of authentication methods for SSPR. 
+- Saved the configuration, completing the basic setup of authentication methods for SSPR. [SSPR Autentication – user and admin email alerts (screenshot)](SSPR.png)
+
 
 ### Subtask 3 – Configure SSPR registration
 
