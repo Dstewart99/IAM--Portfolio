@@ -33,7 +33,7 @@ Document my hands-on identity labs IAM study plan focused on:
 
 
 
-Week 1–[Microsoft Entra ID labs](week2/README.md)
+Week 1–[Microsoft Entra ID labs](week1)
 
 🔥 Topics Covered
 
