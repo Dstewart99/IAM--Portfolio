@@ -164,16 +164,30 @@ In this exercise I learned where the self-service password reset (SSPR) feature 
 
 ----
 
-## Exercise – Perform basic Password Protection tasks
+## Day 11 – Exercise: Perform basic Password Protection tasks
 
-In this exercise I explored how Microsoft Entra ID protects passwords using smart lockout and banned password lists to reduce password-spray and weak password risks. [web:129][web:131][web:136]
+In this exercise I explored the Microsoft Entra ID password protection capabilities used to enforce stronger passwords and reduce password attack risk. [page:0][web:129]
 
-### Task 1 – Configure smart lockout and banned passwords
+### Task 1 – View lock settings, duration, and threshold values
 
-- Opened the **Microsoft Entra admin center** and went to **Protection → Authentication methods → Password protection**. [web:129]  
-- Set **Custom smart lockout** with a **Lockout threshold** of **5** failed sign-in attempts and a **Lockout duration** of **30 seconds**, so repeated bad password attempts quickly trigger a temporary lock. [web:129][web:136]  
-- Enabled a **custom banned password list** and added the words **Contoso**, **London**, and **Widget** to block organization-specific weak passwords from being used. [web:131][web:136]  
-- Set the **Mode** for custom banned passwords to **Enforced** and saved the configuration so these rules actively prevent users from setting passwords that contain those terms. [web:131]
+- Opened the **Microsoft Entra admin center** at `https://entra.microsoft.com` and signed in with my lab tenant account.
+- From the left menu, went to **Entra ID → Authentication methods** and selected **Password protection**. 
+
+- Enabled **Custom smart lockout** with:
+  - **Lockout threshold** set to **5**, so the account locks after five failed password attempts.  
+  - **Lockout duration** set to **30 seconds**, defining how long the account remains locked when the threshold is reached. 
+
+- Turned on **Enforce custom list** and added the following custom banned password terms to block weak, organization-specific passwords:
+  - `Contoso`  
+  - `London`  
+  - `Widget`  
+
+  This simulates a company named Contoso in London that makes widgets, ensuring those words cannot be part of a user’s password.
+
+- Set **Mode** to **Enforced** and selected **Save** so the custom banned password list and smart lockout settings actively apply to sign-ins and password changes.
+
+[Password protection – smart lockout and custom banned password list (screenshot)](Password_protection.png)
+
 
 
 
