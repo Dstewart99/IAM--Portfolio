@@ -6,7 +6,7 @@ LinkedIn: https://www.linkedin.com/in/deandra-stewart-2301a6352
 ---
 ### About This Portfolio
 
-This repository showcases my hands-on Identity & Access Management (IAM) labs in Microsoft Entra ID, focusing on cloud identity, access control, Conditional Access, Privileged Identity Management (PIM), SSPR, password protection, and MFA. It builds on my real-world experience managing identities in on-premises Active Directory.
+This repository showcases my hands-on Identity & Access Management (IAM) labs in Microsoft Entra ID and Okta, focusing on cloud identity, access control, Conditional Access and Okta policies, Privileged Identity Management (PIM), self-service password reset (SSPR), password protection, and multi-factor authentication (MFA). It builds on my real-world experience managing identities in on-premises Active Directory and extending those skills into modern cloud identity platforms.
 
 ### Active Directory Foundations (Professional Experience)
 
