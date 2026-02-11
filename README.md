@@ -16,14 +16,6 @@ Document my hands-on identity labs and 30-day IAM study plan focused on:
 
 ---
 
-## 🔑 Active Directory & Entra ID Labs
-
-### Lab 0 – Active Directory Foundations
-- Managed on‑premises Active Directory user accounts and password resets in a fast‑paced help desk role.
-- Created and updated security and distribution groups to control access to shared resources (shares, mail, and apps).
-- Disabled accounts and removed group memberships for leavers as part of the Joiner–Mover–Leaver (JML) process, aligning with least‑privilege principles.
-- Performed new‑hire onboarding in Active Directory by creating accounts, assigning group membership, and ensuring access to required applications and shared resources as part of the Joiner process.
-
 ### Lab 1 – Entra Users & Groups
 - Created multiple test Entra ID users and security groups.
 - Assigned users to groups based on role (Helpdesk, Finance, HR).
@@ -79,12 +71,13 @@ These are labs I am completing as part of my 30-day IAM plan to build Okta exper
   
 
 ## 📂 Weekly Progress (WEEK 2)
-**Goal:** Get comfortable with Microsoft Entra ID objects, policies, admin roles, and identity protection features.
-
-- Week 2–[Microsoft Entra ID labs](week2/README.md)
+**Goal:** Build practical, hands‑on skills with Microsoft Entra ID while connecting it to my existing Active Directory experience, focusing on user and group management, access policies, admin roles, and identity protection features (SSPR, password protection, and MFA). 
 
 
-## 🔥 Topics Covered (Week 2)
+
+Week 2–[Microsoft Entra ID labs](week2/README.md)
+
+🔥 Topics Covered
 
 - **Entra ID core objects and groups:** Created internal users and security groups (for example, IAM-Test-Employees), set properties like user type and usage location, and prepared groups for Conditional Access and PIM labs.  
 - **Conditional Access basics:** Built a targeted policy that requires MFA for IAM-Test-Employees when accessing Microsoft Service Trust, and documented the policy behavior in plain language.  
