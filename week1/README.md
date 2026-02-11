@@ -1,4 +1,4 @@
-### ✅ Day 1 – IAM Basics
+### ✅ IAM Foundations
 
 - Defined Identity, Authentication, Authorization, and Governance.
 - Learned the Joiner–Mover–Leaver (JML) lifecycle and wrote examples from my help desk work.
