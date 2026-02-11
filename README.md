@@ -84,11 +84,16 @@ These are labs I am completing as part of my 30-day IAM plan to build Okta exper
 - Week 2–[Microsoft Entra ID labs](week2/README.md)
 
 
-### 🔥 Topics Covered
-- Entra ID basics: Users, groups, devices, and service principals, plus hands‑on practice creating test users and groups.
-- Conditional Access: What it is, where it applies, MFA enforcement, and device/location‑based policies, including a sample policy written in plain English.
-- Privileged Identity Management (PIM): Just‑in‑time vs standing admin access, eligible vs active roles, and the steps to activate a role through PIM.
-- Azure roles: Used a role-assignable security group to grant the User Administrator role, showing how group-based role assignments make admin access easier to manage and audit than direct user assignments.
+## 🔥 Topics Covered (Week 2)
+
+- **Entra ID core objects and groups:** Created internal users and security groups (for example, IAM-Test-Employees), set properties like user type and usage location, and prepared groups for Conditional Access and PIM labs.  
+- **Conditional Access basics:** Built a targeted policy that requires MFA for IAM-Test-Employees when accessing Microsoft Service Trust, and documented the policy behavior in plain language.  
+- **Privileged Identity Management (PIM):** Compared just‑in‑time vs standing admin access, practiced eligible vs active role assignments, and activated/deactivated an eligible Security Reader role via PIM.  
+- **Role-assignable groups and admin roles:** Created a role‑assignable group (IAM-User-Admins), assigned the User Administrator role to the group, and verified that membership controls who has that admin access.  
+- **Self-Service Password Reset (SSPR):** Enabled SSPR for a lab group, configured authentication methods, registration (including 90‑day re‑confirmation), and reset notifications, then walked through the SSPR flow with a test user.  
+- **Password Protection:** Configured smart lockout (threshold and duration), enabled a custom banned password list with organization-specific terms (Contoso, London, Widget), and enforced it to block weak passwords.  
+- **Multifactor Authentication (MFA):** Enabled per‑user MFA for a lab user, reviewed MFA service settings, and configured MFA account lockout thresholds and timers to protect against MFA abuse.
+
 
 
 
