@@ -139,19 +139,21 @@ In this exercise I learned where the self-service password reset (SSPR) feature 
 - Reviewed the **Self service password reset enabled** options: **None** (no users), **Selected** (only selected groups), and **All** (all users). 
 - Set the value to **Selected**, chose my lab group (IAM-Test-Employees), and saved the configuration so only this group can use SSPR. - [Password reset – SSPR properties for test group (screenshot)](SSPR_IAM-Test-Employees_properties.png.png)
 
-### Subtask 1 – Configure SSPR authentication methods
+### Subtask 2 – Configure SSPR authentication methods
 
-- From **Password reset → Authentication methods**, set **Number of methods required to reset** to **1**, meaning users must verify with one authentication method before they can reset their password (the password itself does not count as a method). [page:0][web:90]  
-- Selected **Email**, **Mobile phone**, and **Mobile app code** as the **Methods available to users** so they have multiple options for verification. [page:0][web:90]  
-- Saved the configuration, completing the basic setup of authentication methods for SSPR. [page:0]
+- From **Password reset → Authentication methods**, set **Number of methods required to reset** to **1**, meaning users must verify with one authentication method before they can reset their password (the password itself does not count as a method). 
+- Selected **Email**, **Mobile phone**, and **Mobile app code** as the **Methods available to users** so they have multiple options for verification. 
+- Saved the configuration, completing the basic setup of authentication methods for SSPR. 
 
-### Subtask 2 – Configure SSPR registration
+### Subtask 3 – Configure SSPR registration
 
-- Opened **Password reset → Registration**. [page:0]  
-- Verified **Require users to register when signing in?** was set to **Yes** so users are prompted to register their SSPR methods during sign-in. [page:0][web:90]  
-- Set **Number of days before users are asked to re-confirm their authentication information** to **90** days and saved the settings to keep registration data up to date. [page:0]
+- Opened **Password reset → Registration**. 
+- Verified **Require users to register when signing in?** was set to **Yes** so users are prompted to register their SSPR methods during sign-in. 
+- Set **Number of days before users are asked to re-confirm their authentication information** to **90** days and saved the settings to keep registration data up to date. [SSPR registration – users re-confirm every 90 days (screenshot)](90days.png)
 
-### Subtask 3 – Configure SSPR reset notifications
+
+
+### Subtask 4 – Configure SSPR reset notifications
 
 - Went to **Password reset → Notifications**. [page:0]  
 - Left **Notify users on password reset?** at the default value of **Yes** so users receive an email when their password is reset through SSPR. [page:0][web:106]  
@@ -160,7 +162,7 @@ In this exercise I learned where the self-service password reset (SSPR) feature 
 
 ### Day 10 Screenshots
 
-- [Password reset – SSPR properties for test group (screenshot)](SSPR_properties.png)
+
 - [Password reset – SSPR authentication methods (screenshot)](SSPR_methods.png)
 - [SSPR reset flow as test user (screenshot)](SSPR_flow.png)
 - [Per-user MFA enabled for test user (screenshot)](MFA_user_enabled.png)
