@@ -48,7 +48,7 @@ Week 1–[Microsoft Entra ID labs](week1)
 
 
 
-## 📂 Weekly Progress (WEEK 2)
+## 📂 Weekly Progress (WEEK 1)
 **Goal:** Get comfortable with Okta as an SSO and MFA platform.
 
 ### 🔥 Topics Covered
@@ -59,7 +59,7 @@ Week 1–[Microsoft Entra ID labs](week1)
 - Okta vs Entra ID: Summarized key differences in integration style, strengths/use cases, and which system is treated as the “source of truth,” captured in a two‑column comparison.
 
 
-## 📂 Weekly Progress (WEEK 3)
+## 📂 Weekly Progress (WEEK 2)
 **Goal:** Connect IAM tools and concepts to real‑world IAM analyst responsibilities.
 
 ### 🔥 Topics Covered
@@ -70,15 +70,7 @@ Week 1–[Microsoft Entra ID labs](week1)
 - Compliance basics: Covered high‑level concepts for SOX, HIPAA, and audits, and explained how IAM supports compliance through JML, least privilege, and periodic access reviews.
 
 
-## 📂 Weekly Progress (WEEK 4)
-**Goal:** Turn skills into interviews with strong stories, a focused resume, and practiced scenarios.
 
-### 🔥 Topics Covered
-- IAM storytelling: Wrote and practiced a 60–90 second explanation of “What is IAM?” and “What does an IAM analyst do?” out loud.
-- Scenario practice: Prepared structured answers (Situation → Risk → Action → Outcome) for common IAM scenarios like inappropriate access requests, urgent admin rights, and discovering excessive access.
-- IAM resume bullets: Translated current help desk work into IAM language (JML, MFA support, group/access management) and added quantified bullets highlighting Entra and Okta labs.
-- Full review: Revisited IAM fundamentals, Entra ID labs, and Okta labs, tightening and clarifying notes where needed.
-- Mock interview: Practiced core interview questions (“Tell me about yourself” with an IAM angle, JML, least privilege, Okta vs Entra ID) and recorded a mock interview for self‑review.
 
 
 ---
