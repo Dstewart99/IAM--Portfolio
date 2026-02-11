@@ -19,9 +19,10 @@ Document my hands-on identity labs and 30-day IAM study plan focused on:
 ## 🔑 Active Directory & Entra ID Labs
 
 ### Lab 0 – Active Directory Foundations
-- Managed on-premises AD user accounts and password resets in a help desk role.
-- Created and updated security and distribution groups to control access to shared resources.
-- Disabled accounts and removed group memberships for leavers as part of JML.
+- Managed on‑premises Active Directory user accounts and password resets in a fast‑paced help desk role.
+- Created and updated security and distribution groups to control access to shared resources (shares, mail, and apps).
+- Disabled accounts and removed group memberships for leavers as part of the Joiner–Mover–Leaver (JML) process, aligning with least‑privilege principles.
+- Performed new‑hire onboarding in Active Directory by creating accounts, assigning group membership, and ensuring access to required applications and shared resources as part of the Joiner process.
 
 ### Lab 1 – Entra Users & Groups
 - Created multiple test Entra ID users and security groups.
