@@ -4,15 +4,16 @@
 LinkedIn: https://www.linkedin.com/in/deandra-stewart-2301a6352
 
 ---
-🔑 Active Directory 
+### About This Portfolio
 
-### Active Directory Foundations
+This repository showcases my hands-on Identity & Access Management (IAM) labs in Microsoft Entra ID, focusing on cloud identity, access control, Conditional Access, Privileged Identity Management (PIM), SSPR, password protection, and MFA. It builds on my real-world experience managing identities in on-premises Active Directory.
+
+### Active Directory Foundations (Professional Experience)
 
 - Managed on-premises Active Directory user accounts and password resets in a fast-paced help desk environment.
 - Created and updated security and distribution groups to control access to shared folders, mail, and line-of-business applications.
 - Disabled accounts and removed group memberships for leavers as part of the Joiner–Mover–Leaver (JML) process, aligning with least-privilege principles.
 - Performed new-hire onboarding by creating accounts, assigning group memberships, and ensuring access to required applications and shared resources as part of the Joiner process.
-
 ----
 ## 🎯 Goal
 
