@@ -26,20 +26,8 @@ Document my hands-on identity labs and 30-day IAM study plan focused on:
 
 ---
 
-## 📂 Weekly Progress (WEEK 1)
-**Goal:** Build a strong foundation in core IAM concepts and language.
 
-- [Week 1 – IAM Foundations & MFA](week1/README.md)
-
-
-### 🔥 Topics Covered
-- IAM fundamentals: Identity, Authentication, Authorization, Governance, JML lifecycle.
-- Access models: Principle of Least Privilege, Role-Based Access Control (RBAC), groups vs roles.
-- Risk concepts: Segregation of Duties (SoD), excessive access, over‑provisioning, and real‑world risky access scenarios.
-- Access reviews: Purpose of access certifications, why auditors require periodic reviews, and a basic access review workflow (who reviews what and how often).
-- Identity Governance (IGA): How IGA extends IAM with approvals, policies, reviews, attestation, and SoD checks, plus a concise summary of “What is Identity Governance?”
   
-
 ## 📂 Weekly Progress (WEEK 2)
 **Goal:** Build practical, hands‑on skills with Microsoft Entra ID while connecting it to my existing Active Directory experience, focusing on user and group management, access policies, admin roles, and identity protection features (SSPR, password protection, and MFA). 
 
@@ -60,7 +48,7 @@ Week 1–[Microsoft Entra ID labs](week2/README.md)
 
 
 
-## 📂 Weekly Progress (WEEK 3)
+## 📂 Weekly Progress (WEEK 2)
 **Goal:** Get comfortable with Okta as an SSO and MFA platform.
 
 ### 🔥 Topics Covered
@@ -71,7 +59,7 @@ Week 1–[Microsoft Entra ID labs](week2/README.md)
 - Okta vs Entra ID: Summarized key differences in integration style, strengths/use cases, and which system is treated as the “source of truth,” captured in a two‑column comparison.
 
 
-## 📂 Weekly Progress (WEEK 4)
+## 📂 Weekly Progress (WEEK 3)
 **Goal:** Connect IAM tools and concepts to real‑world IAM analyst responsibilities.
 
 ### 🔥 Topics Covered
@@ -82,7 +70,7 @@ Week 1–[Microsoft Entra ID labs](week2/README.md)
 - Compliance basics: Covered high‑level concepts for SOX, HIPAA, and audits, and explained how IAM supports compliance through JML, least privilege, and periodic access reviews.
 
 
-## 📂 Weekly Progress (WEEK 5)
+## 📂 Weekly Progress (WEEK 4)
 **Goal:** Turn skills into interviews with strong stories, a focused resume, and practiced scenarios.
 
 ### 🔥 Topics Covered
