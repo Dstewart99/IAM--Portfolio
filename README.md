@@ -24,31 +24,7 @@ Document my hands-on identity labs and 30-day IAM study plan focused on:
 - Microsoft Entra ID (Azure AD) and Active Directory
 - Okta fundamentals (SSO/MFA) through self‑study labs
 
-
 ---
-
-## ☁️ Okta Labs (In Progress)
-
-These are labs I am completing as part of my 30-day IAM plan to build Okta experience.
-
-### Planned Lab 1 – Users, Groups, and Assignments
-- Create test Okta users and groups (Helpdesk, Contractors, HR).
-- Assign applications and policies based on group membership.
-- Practice JML operations for new hires, department changes, and terminations.
-
-### Planned Lab 2 – SSO App Integration
-- Set up a mock application with Okta using SAML-based SSO.
-- Map basic attributes (email, first name, last name) for the sign-in flow.
-- Test logins from the Okta dashboard into the application.
-
-### Planned Lab 3 – MFA Policies and Group Rules
-- Create an MFA policy requiring stronger factors for admin and high‑risk users.
-- Configure group rules to auto-assign users to groups based on department attribute.
-- Link MFA and group rules back to least privilege and JML lifecycle.
-
----
-
-
 
 ## 📂 Weekly Progress (WEEK 1)
 **Goal:** Build a strong foundation in core IAM concepts and language.
