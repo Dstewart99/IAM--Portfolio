@@ -1,4 +1,4 @@
-## IAM Foundations for Analysts
+## IAM Foundations 
 
 ### 🎯 Objective  
 Build a strong understanding of core Identity and Access Management (IAM) and Identity Governance concepts, and connect them to real-world identity lifecycle operations in enterprise environments.
