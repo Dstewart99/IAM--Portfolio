@@ -48,6 +48,7 @@ Week 1–[Microsoft Entra ID labs](week1)
 
 ## 📂 Weekly Progress (WEEK 2)
 **Goal:** Get comfortable with Okta as an SSO and MFA platform.
+
 Week 1–[OKTA](week2)
 ### 🔥 Topics Covered
 - Okta users and groups: Navigated the Okta Admin Console, created users and groups, and compared the user/group experience with Entra ID.
