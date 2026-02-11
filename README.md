@@ -45,7 +45,7 @@ Document my hands-on identity labs and 30-day IAM study plan focused on:
 
 
 
-Week 2–[Microsoft Entra ID labs](week2/README.md)
+Week 1–[Microsoft Entra ID labs](week2/README.md)
 
 🔥 Topics Covered
 
