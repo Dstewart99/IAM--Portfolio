@@ -129,28 +129,45 @@ Focuses on assigning Microsoft Entra admin roles through a role-assignable group
 - [Test user showing inherited User Administrator role (screenshot)](proof-user-added.png)
 
 ----
-### Day 10 – Identity Protection
+## Day 10 – Exercise: Perform basic Self-Service Password Reset (SSPR) tasks
 
-Day 10 focuses on Microsoft Entra ID Protection: how user and sign-in risk are detected, and how risk-based policies can automatically protect accounts.
+In this exercise I learned where the self-service password reset (SSPR) feature is configured in Microsoft Entra and walked through enabling it for a specific group. 
 
-**Key concepts**
+### Task 1 – View and configure SSPR properties for a group
 
-- User risk: How likely it is that a user account is compromised based on multiple signals over time.
-- Sign-in risk: How risky a specific login attempt is based on IP, location, device, and behavior.
-- Risk detections feed reports like Risky users and Risky sign-ins and can trigger automatic remediation through policies.
+- Opened the **Microsoft Entra admin center** and went to  Password reset → Properties**. 
+- Reviewed the **Self service password reset enabled** options: **None** (no users), **Selected** (only selected groups), and **All** (all users). 
+- Set the value to **Selected**, chose my lab group (IAM-Test-Employees), and saved the configuration so only this group can use SSPR. - [Password reset – SSPR properties for test group (screenshot)](week2/SSPR_IAM-Test-Employees_properties.png.png)
 
-**Sign-in risk and user risk policies**
+### Subtask 1 – Configure SSPR authentication methods
 
-- Sign-in risk policy: When a sign-in is detected as risky, require extra controls (such as MFA) or block access entirely.
-- User risk policy: When a user’s account is considered risky, require remediation (such as a secure password reset) before allowing normal access.
+- From **Password reset → Authentication methods**, set **Number of methods required to reset** to **1**, meaning users must verify with one authentication method before they can reset their password (the password itself does not count as a method). [page:0][web:90]  
+- Selected **Email**, **Mobile phone**, and **Mobile app code** as the **Methods available to users** so they have multiple options for verification. [page:0][web:90]  
+- Saved the configuration, completing the basic setup of authentication methods for SSPR. [page:0]
 
-**Examples of risky sign-in detections**
+### Subtask 2 – Configure SSPR registration
 
-- Unfamiliar sign-in properties: Sign-in from a new location/device/IP that doesn’t match the user’s normal pattern.
-- Activity from an anonymous IP address: Sign-in through Tor or another anonymizing service.
-- Impossible or atypical travel: Back-to-back sign-ins from two distant locations in a timeframe that isn’t physically possible.
-- (Optional) Leaked credentials: The user’s username and password were found in a known data breach.
-- (Optional) Password spray attack: Many accounts are hit with the same common password in a short period.
+- Opened **Password reset → Registration**. [page:0]  
+- Verified **Require users to register when signing in?** was set to **Yes** so users are prompted to register their SSPR methods during sign-in. [page:0][web:90]  
+- Set **Number of days before users are asked to re-confirm their authentication information** to **90** days and saved the settings to keep registration data up to date. [page:0]
+
+### Subtask 3 – Configure SSPR reset notifications
+
+- Went to **Password reset → Notifications**. [page:0]  
+- Left **Notify users on password reset?** at the default value of **Yes** so users receive an email when their password is reset through SSPR. [page:0][web:106]  
+- Changed **Notify all admins when other admins reset their password?** to **Yes**, then saved the configuration to increase visibility into privileged password reset activity. [page:0][web:106]
+
+
+### Day 10 Screenshots
+
+- [Password reset – SSPR properties for test group (screenshot)](SSPR_properties.png)
+- [Password reset – SSPR authentication methods (screenshot)](SSPR_methods.png)
+- [SSPR reset flow as test user (screenshot)](SSPR_flow.png)
+- [Per-user MFA enabled for test user (screenshot)](MFA_user_enabled.png)
+- [MFA prompt during sign-in (screenshot)](MFA_prompt.png)
+
+
+
 
 
 
