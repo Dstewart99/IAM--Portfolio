@@ -196,23 +196,17 @@ In this exercise I explored the MFA setup process in Microsoft Entra ID, includi
 ### Task 1 – Enable / Disable Per-user MFA settings
 
 - Opened the **Microsoft Entra admin center** at `https://entra.microsoft.com`, went to **Identity → Users → All users**, and selected **Per-user MFA** from the top menu. 
-- Picked a lab user account (equivalent to *Zack Johnson*), selected it, and chose **Enable MFA**. 
+- Picked a lab user account (*Zack Johnson*), selected it, and chose **Enable MFA**. 
 - Confirmed the prompt explaining that an enrollment URL can be sent to the user so they can register MFA methods, then selected **Enable** and verified that the user’s status changed to **Enforced**. 
   Enabled – (screenshot)](enabled_disabled.png)
 
-### Task 2 – Review MFA service settings
+### Task 2 – Configure MFA account lockout settings
 
-- From **Users → All users → Per-user MFA**, opened the **Service settings** page to review global MFA options. [page:0]  
-- Looked at **App passwords** (for legacy apps that do not support modern authentication), **Trusted IPs** (ranges where MFA can be bypassed), and **Verification options** (allowed second-factor methods for users). [page:0][web:135]  
-- Reviewed the option **Remember multifactor authentication on trusted device**, which lets users stay MFA-verified on trusted devices for a specified number of days, and then discarded changes to keep defaults for this lab. [page:0]
+- Search **Account lockout**.   
+- Set **Number of MFA denials to trigger account lockout** to **3**, **Minutes until account lockout counter is reset** to **180**, and **Minutes until account is automatically unblocked** to **15**, then saved the configuration.   
+- Briefly reviewed other MFA options such as **Fraud alert**, **Block/unblock users**, and **Notifications** to understand how administrators can respond to suspicious MFA activity. 
 
-### Task 3 – Configure MFA account lockout settings
-
-- Navigated to **Protection → Multifactor authentication → Account lockout**. [page:0]  
-- Set **Number of MFA denials to trigger account lockout** to **3**, **Minutes until account lockout counter is reset** to **180**, and **Minutes until account is automatically unblocked** to **15**, then saved the configuration. [page:0][web:152]  
-- Briefly reviewed other MFA options such as **Fraud alert**, **Block/unblock users**, and **Notifications** to understand how administrators can respond to suspicious MFA activity. [page:0][web:135]
-
-[MFA – per-user MFA and account lockout configuration (screenshot)](MFA_per-user-and-lockout.png)
+[lockout configuration (screenshot)](Account_lockout.png)
 
 
 
