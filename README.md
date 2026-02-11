@@ -17,7 +17,7 @@ This repository showcases my hands-on Identity & Access Management (IAM) labs in
 ----
 ## 🎯 Goal
 
-Document my hands-on identity labs and 30-day IAM study plan focused on:
+Document my hands-on identity labs IAM study plan focused on:
 
 - Joiner–Mover–Leaver (JML) lifecycle
 - Least privilege, RBAC, and access reviews
