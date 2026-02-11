@@ -1,57 +1,107 @@
-### ✅ IAM Foundations
+## IAM Foundations for Analysts
 
-- Defined Identity, Authentication, Authorization, and Governance.
-- Learned the Joiner–Mover–Leaver (JML) lifecycle and wrote examples from my help desk work.
-- Created and reviewed IAM flashcards for these core terms:
-  
-  - Identity: Who the user/account is.
-  - Authentication: Proving identity (password, MFA).
-  - Authorization: What the user is allowed to access.
-  - Governance: Policies, approvals, and reviews that control access.
-  - JML: Joiner (new hire), Mover (role change), Leaver (offboarding).
- 
-### ✅ Day 2 – Least Privilege & RBAC
+### 🎯 Objective  
+Build a strong understanding of core Identity and Access Management (IAM) and Identity Governance concepts, and connect them to real-world identity lifecycle operations in enterprise environments.
 
-- Reviewed the principle of least privilege and role-based access control (RBAC), focusing on giving users only the minimum access needed to perform their job duties.
-- Compared how security groups in Active Directory and roles in Microsoft Entra ID can both be used as building blocks for RBAC instead of granting permissions user-by-user.
-  
-- Documented 3 real access scenarios from my help desk experience and described how RBAC would handle them:
-  
-  - New hire: Assign the user to department and job function groups so they automatically get access to the correct apps and shared resources.
-  - Role change (mover): Remove the user from old role/department groups and add them to new ones so their access updates with their job.
-  - Offboarding (leaver): Disable the account and remove group memberships to ensure access is revoked across all linked systems.
+---
 
+### 🔐 Core Identity Concepts  
 
+| Concept        | Definition                                           | Why It Matters in Organizations                                      |
+|----------------|------------------------------------------------------|-----------------------------------------------------------------------|
+| Identity       | A digital representation of a user or account.       | All access decisions depend on accurate, unique identities.  |
+| Authentication | Verifying who a user is (password, MFA, biometrics). | Prevents unauthorized access through credential abuse.       |
+| Authorization  | Determining what a user is allowed to access.        | Enforces least privilege and limits security risk.          |
+| Governance     | Oversight of access through policies, approvals, and reviews. | Required for audits, compliance, and risk reduction.|
 
-### ✅ Day 3 – Risk Concepts
+---
 
-- Defined Segregation of Duties (SoD) as splitting high‑risk steps between different roles so one person cannot control an entire process.
-- Example: regular end users can use applications on their laptops, but only IT admins are allowed to install or approve new software. This separates “using” from “controlling” the software.
+### 🔄 Joiner–Mover–Leaver (JML) Lifecycle  
 
-- Reviewed excessive access and over‑provisioning risk, including how users can slowly collect permissions over time when they change roles but old access is never removed.
-  
-- Noted 3 example risky access scenarios:
-      - An end user has local admin rights on their workstation and can install any software they want, increasing malware and data exfiltration risk.
-       -A former project member still has access to a shared mailbox and SharePoint site with sensitive files months after leaving the team.
-       - A contractor account keeps high‑privilege directory or admin permissions after their contract ends instead of being downgraded or disabled.
- 
+Identity access changes throughout a user’s employment lifecycle.
 
-### ✅ Day 4 – Access Reviews
+| Stage  | IAM Activities                                         | Risk if Not Managed                                        |
+|--------|--------------------------------------------------------|------------------------------------------------------------|
+| Joiner | Account creation, license assignment, MFA enrollment.  | Over-provisioning and unnecessary access at onboarding.[web:26] |
+| Mover  | Updating group memberships and roles.                  | Permission/privilege creep from old access not removed.[web:28][web:31] |
+| Leaver | Disabling accounts and revoking access.                | Orphaned accounts and potential security breaches.[web:25][web:31] |
 
-- Learned that access certifications (user access reviews) are periodic checks where managers or system owners verify that each user still needs their current access and revoke anything that is no longer required.
-- Noted that auditors and regulations expect periodic access reviews (often quarterly or annually) to prove that the company is controlling permission creep and removing unnecessary or risky access over time.
-  
-- Wrote a simple access review workflow:
-     - Who: Application owners and people managers review access for their users (for example, a manager reviews their team’s access to key apps and shared mailboxes).
-     - What: They check which users have access, what roles/groups they are in, and whether that access still matches each person’s job.
-     - How often: Run reviews on a regular schedule (for example, quarterly for high‑risk systems and at least annually for lower‑risk apps).
+**Connection to my role:**  
+I regularly support JML processes through user provisioning, license assignment, MFA troubleshooting, and group membership updates in enterprise environments.
 
+---
 
+### 🛡 Least Privilege & RBAC  
 
-### ✅ Day 5 – Identity Governance (IGA)
+- **Least Privilege** ensures users only receive the access required for their job, reducing the impact of compromised accounts or mistakes.
+- **Role-Based Access Control (RBAC)** assigns permissions through roles or groups instead of directly to individuals, simplifying management at scale.
 
-- Compared IAM vs IGA: Identity and Access Management (IAM) focuses on the mechanics of accounts, authentication, and authorization (who can log in and what they can do), while Identity Governance and Administration (IGA) adds the governance layer on top — approvals, policies, access reviews, and reporting to make sure access stays appropriate and compliant over time.
-- Noted common IGA activities like scheduling regular access reviews, asking managers or app owners to confirm which permissions their users still need, and running SoD checks to catch unsafe combinations of access.
+**Enterprise application example:**
 
-- Wrote a short summary of Identity Governance:
-  - Identity Governance is the set of policies, processes, and tools I use to make sure the right people have the right access, that this access is approved and reviewed regularly, and that the organization can demonstrate this to auditors. It builds on IAM by adding workflows for access requests and approvals, scheduled access reviews, SoD controls, and compliance reporting so that access stays aligned with business roles and regulations over time.
+- New hires receive access through department-based security groups.  
+- Role changes trigger group membership and role updates.  
+- Offboarding removes group memberships and disables accounts so access is revoked across systems.
+
+This approach improves scalability, reduces errors, and strengthens the organization’s security posture.
+
+---
+
+### ⚠ Risk Concepts in IAM  
+
+**Segregation of Duties (SoD)**  
+SoD prevents one user from controlling an entire high-risk process by separating conflicting responsibilities (for example, requesting and approving the same transaction).
+Example: End users can operate applications, but only IT admins can install or approve software. This separation reduces fraud, misuse, and accidental changes.
+
+**Excessive Access & Permission Creep**  
+Access accumulates over time when permissions are not removed after role or project changes, leading to excessive access and “privilege creep.” 
+
+Common risk scenarios:
+
+- End user with unnecessary local admin rights on their workstation.  
+- Former team member retaining access to shared mailboxes or SharePoint sites.  
+- Contractor accounts maintaining elevated privileges after the contract ends.
+
+---
+
+### 🔍 Access Reviews  
+
+Access certifications (access reviews) validate that users still require their assigned access and help organizations remediate unnecessary permissions.
+
+| Element | Description                                             |
+|---------|---------------------------------------------------------|
+| Who     | Managers and application or resource owners.            |
+| What    | Verify group memberships, role assignments, and app access. |
+| When    | Quarterly for high-risk systems, at least annually for others. |
+
+Access reviews help organizations control permission creep and demonstrate effective access control for compliance and audits.
+
+---
+
+### 🧩 Identity Governance (IGA)  
+
+| IAM                                                   | IGA                                                             |
+|-------------------------------------------------------|-----------------------------------------------------------------|
+| Manages identities and access (authentication, authorization, access control). | Governs how access is approved, reviewed, and monitored over time.
+| Focuses on enforcing access policies (e.g., RBAC, MFA).        | Focuses on policies, approvals, reviews, SoD, and reporting.
+
+IGA commonly adds:
+
+- Access request and approval workflows.  
+- Periodic access reviews across key applications and groups.  
+- SoD analysis to catch risky combinations of roles and entitlements.  
+- Compliance reporting to show that access is appropriate and reviewed.
+
+Identity Governance ensures access stays aligned with job roles and regulatory requirements as users join, move, and leave the organization.
+
+---
+
+### 🧠 Key Takeaway  
+
+Strong IAM practice combines:
+
+- Technical controls (authentication, RBAC, MFA).  
+- Lifecycle management (Joiner–Mover–Leaver).  
+- Governance processes (access reviews, approvals, SoD controls).
+
+This foundation supports secure and compliant identity management across enterprise environments and sets the stage for the Azure Entra ID and Okta labs that follow.
+
