@@ -28,7 +28,7 @@ Document my hands-on identity labs IAM study plan focused on:
 
 
   
-## 📂 Weekly Progress (WEEK 2)
+## 📂 Weekly Progress (WEEK 1)
 **Goal:** Build practical, hands‑on skills with Microsoft Entra ID while connecting it to my existing Active Directory experience, focusing on user and group management, access policies, admin roles, and identity protection features (SSPR, password protection, and MFA). 
 
 
