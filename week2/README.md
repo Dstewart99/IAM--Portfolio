@@ -137,7 +137,7 @@ In this exercise I learned where the self-service password reset (SSPR) feature 
 
 - Opened the **Microsoft Entra admin center** and went to  Password reset → Properties**. 
 - Reviewed the **Self service password reset enabled** options: **None** (no users), **Selected** (only selected groups), and **All** (all users). 
-- Set the value to **Selected**, chose my lab group (IAM-Test-Employees), and saved the configuration so only this group can use SSPR. - [Password reset – SSPR properties for test group (screenshot)](SSPR_IAM-Test-Employees_properties.png.png)
+- Set the value to **Selected**, chose my lab group (IAM-Test-Employees), and saved the configuration so only this group can use SSPR. - [SSPR properties for test group (screenshot)](SSPR_IAM-Test-Employees_properties.png.png)
 
 ### Subtask 2 – Configure SSPR authentication methods
 
