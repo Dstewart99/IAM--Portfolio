@@ -31,8 +31,6 @@ Document my hands-on identity labs IAM study plan focused on:
 ## 📂 Weekly Progress (WEEK 1)
 **Goal:** Build practical, hands‑on skills with Microsoft Entra ID while connecting it to my existing Active Directory experience, focusing on user and group management, access policies, admin roles, and identity protection features (SSPR, password protection, and MFA). 
 
-
-
 Week 1–[Microsoft Entra ID labs](week1)
 
 🔥 Topics Covered
@@ -48,7 +46,7 @@ Week 1–[Microsoft Entra ID labs](week1)
 
 
 
-## 📂 Weekly Progress (WEEK 1)
+## 📂 Weekly Progress (WEEK 2)
 **Goal:** Get comfortable with Okta as an SSO and MFA platform.
 
 ### 🔥 Topics Covered
@@ -59,7 +57,7 @@ Week 1–[Microsoft Entra ID labs](week1)
 - Okta vs Entra ID: Summarized key differences in integration style, strengths/use cases, and which system is treated as the “source of truth,” captured in a two‑column comparison.
 
 
-## 📂 Weekly Progress (WEEK 2)
+## 📂 Weekly Progress (WEEK 3)
 **Goal:** Connect IAM tools and concepts to real‑world IAM analyst responsibilities.
 
 ### 🔥 Topics Covered
