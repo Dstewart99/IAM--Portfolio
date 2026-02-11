@@ -81,7 +81,7 @@ These are labs I am completing as part of my 30-day IAM plan to build Okta exper
 ## 📂 Weekly Progress (WEEK 2)
 **Goal:** Get comfortable with Microsoft Entra ID objects, policies, admin roles, and identity protection features.
 
-- Week 2 – [Microsoft Entra ID labs](week2/README.md)
+- Week 2 –[Microsoft Entra ID labs](week2/README.md)
 
 
 ### 🔥 Topics Covered
