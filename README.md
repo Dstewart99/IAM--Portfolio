@@ -34,7 +34,8 @@ Before diving into Entra ID and Okta labs, I documented my core IAM and Identity
 ## 📂 Identity Labs: Microsoft Entra ID
 **Goal:** Build practical, hands‑on skills with Microsoft Entra ID while connecting it to my existing Active Directory experience, focusing on user and group management, access policies, admin roles, and identity protection features (SSPR, password protection, and MFA). 
 
-[Microsoft Entra ID labs](week1)
+🔗 [Microsoft Entra ID Labs](entra-id-labs)
+
 
 🔥 Topics Covered
 
