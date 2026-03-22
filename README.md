@@ -52,27 +52,24 @@ Before diving into Entra ID and Okta labs, I documented my core IAM and Identity
 -----------------
 
 ## 📂 Identity Labs: Okta
-**Goal:** Get comfortable with Okta as an SSO and MFA platform.
+**Goal:** Build hands-on, exam-level skills with Okta as an enterprise SSO, MFA, and lifecycle management platform, working toward the Okta Certified Professional certification. Labs are completed in a free Okta Developer Tenant and mapped directly to the Okta Certified Professional Performance Exam study guide.
 
 🔗 [Okta Labs](Okta-Labs)
 
 ### 🔥 Topics Covered 
 
-- **Admin Console & Foundations:** Explored the Okta Admin Console layout (Dashboard, Directory, Applications, Security, Workflow, Reports) and mapped key features to the four exam domains.
+- User Management & Administration: Created user accounts manually in the Okta Admin Console, added custom profile attributes to the Universal Directory, edited user profiles, and managed account status. Created groups, manually assigned users, and built automated group rules to assign users based on profile attributes. Assigned a standard administrator role (Help Desk Admin) to a group and created a custom admin role with a scoped resource set to enforce least-privilege delegation.
 
-- **Universal Directory & Profiles:** Practiced creating user profiles with standard and custom attributes, configuring profile mappings between Okta and app profiles, and understanding attribute types and profile mastering. 
+- App Integration with SSO & Provisioning: Integrated an application from the Okta Integration Network (OIN) using SAML 2.0 Single Sign-On. Configured automated user provisioning (create, update, deactivate) from Okta to the downstream app. Assigned a group to the application and verified that users were automatically provisioned without manual intervention.
 
-- **AD Integration & Lifecycle:** Reviewed Okta AD Agent architecture, import and matching rules, delegated authentication behavior, and JIT vs. scheduled imports, then walked through troubleshooting scenarios. 
 
-- **Groups, Rules, and Group Push:** Created Okta, AD-sourced, and app groups, built group rules to auto-assign users based on attributes, and tested group push to downstream applications.  
+- Attribute Mapping & User Offboarding: Mapped Okta Universal Directory attributes to app-specific attributes using the Profile Editor and the Provisioning page. Practiced the offboarding workflow by deactivating a user account and verifying that access to all connected applications was immediately revoked, supporting the Leaver stage of the JML lifecycle.
 
-- **SSO & Federation Protocols:** Configured a SAML application in the dev tenant, tested SP-initiated and IdP-initiated flows, and reviewed SAML, OIDC, SWA, and OIN integration concepts. 
 
-- **Provisioning & Automation:** Enabled provisioning for an app (create, update, deactivate), validated auto-deprovisioning behavior, and implemented lifecycle automation with group-based assignments. 
+- Security Policies & MFA Enforcement: Configured an authenticator (Okta Verify) and built an authenticator enrollment policy to require MFA for all users. Added rules to the Global Session Policy to enforce MFA at sign-in. Created an application-level Authentication Policy requiring step-up authentication for a high-value app. Set up a password policy with self-service account recovery options and verified that test users were prompted for the correct authenticators end-to-end.
 
-- **Security, MFA, and Policies:** Created MFA enrollment and sign-on policies, compared factor types, and practiced policy hierarchy and precedence for secure access control. 
+ - Troubleshooting & System Log Analysis: Diagnosed and resolved common sign-in failures including locked accounts, deactivated users, and MFA enrollment issues. Expired user passwords and cleared active sessions from the Admin Console. Troubleshot app visibility issues caused by missing group assignments and incorrect group rules. Used the System Log (Reports > System Log) to search for and interpret authentication events, and identified the correct Okta support channels including the Support Portal, Okta Community, and Okta Status Page.
 
-- **Admin Roles, Self-Service, and Operations:** Reviewed admin roles (Super Admin, Org Admin, App Admin, Help Desk Admin), end-user self-service features, mobile options (Okta Mobile vs OMM), API tokens, System Log, and reporting. 
 
 
 
