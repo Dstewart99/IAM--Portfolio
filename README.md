@@ -58,17 +58,17 @@ Before diving into Entra ID and Okta labs, I documented my core IAM and Identity
 
 ### 🔥 Topics Covered 
 
-- User Management & Administration: Created user accounts manually in the Okta Admin Console, added custom profile attributes to the Universal Directory, edited user profiles, and managed account status. Created groups, manually assigned users, and built automated group rules to assign users based on profile attributes. Assigned a standard administrator role (Help Desk Admin) to a group and created a custom admin role with a scoped resource set to enforce least-privilege delegation.
+- **User Management & Administration:** Created user accounts manually in the Okta Admin Console, added custom profile attributes to the Universal Directory, edited user profiles, and managed account status. Created groups, manually assigned users, and built automated group rules to assign users based on profile attributes. Assigned a standard administrator role (Help Desk Admin) to a group and created a custom admin role with a scoped resource set to enforce least-privilege delegation.
 
-- App Integration with SSO & Provisioning: Integrated an application from the Okta Integration Network (OIN) using SAML 2.0 Single Sign-On. Configured automated user provisioning (create, update, deactivate) from Okta to the downstream app. Assigned a group to the application and verified that users were automatically provisioned without manual intervention.
-
-
-- Attribute Mapping & User Offboarding: Mapped Okta Universal Directory attributes to app-specific attributes using the Profile Editor and the Provisioning page. Practiced the offboarding workflow by deactivating a user account and verifying that access to all connected applications was immediately revoked, supporting the Leaver stage of the JML lifecycle.
+- **App Integration with SSO & Provisioning:** Integrated an application from the Okta Integration Network (OIN) using SAML 2.0 Single Sign-On. Configured automated user provisioning (create, update, deactivate) from Okta to the downstream app. Assigned a group to the application and verified that users were automatically provisioned without manual intervention.
 
 
-- Security Policies & MFA Enforcement: Configured an authenticator (Okta Verify) and built an authenticator enrollment policy to require MFA for all users. Added rules to the Global Session Policy to enforce MFA at sign-in. Created an application-level Authentication Policy requiring step-up authentication for a high-value app. Set up a password policy with self-service account recovery options and verified that test users were prompted for the correct authenticators end-to-end.
+- **Attribute Mapping & User Offboarding:** Mapped Okta Universal Directory attributes to app-specific attributes using the Profile Editor and the Provisioning page. Practiced the offboarding workflow by deactivating a user account and verifying that access to all connected applications was immediately revoked, supporting the Leaver stage of the JML lifecycle.
 
- - Troubleshooting & System Log Analysis: Diagnosed and resolved common sign-in failures including locked accounts, deactivated users, and MFA enrollment issues. Expired user passwords and cleared active sessions from the Admin Console. Troubleshot app visibility issues caused by missing group assignments and incorrect group rules. Used the System Log (Reports > System Log) to search for and interpret authentication events, and identified the correct Okta support channels including the Support Portal, Okta Community, and Okta Status Page.
+
+- **Security Policies & MFA Enforcement:** Configured an authenticator (Okta Verify) and built an authenticator enrollment policy to require MFA for all users. Added rules to the Global Session Policy to enforce MFA at sign-in. Created an application-level Authentication Policy requiring step-up authentication for a high-value app. Set up a password policy with self-service account recovery options and verified that test users were prompted for the correct authenticators end-to-end.
+
+ - **Troubleshooting & System Log Analysis:** Diagnosed and resolved common sign-in failures including locked accounts, deactivated users, and MFA enrollment issues. Expired user passwords and cleared active sessions from the Admin Console. Troubleshot app visibility issues caused by missing group assignments and incorrect group rules. Used the System Log (Reports > System Log) to search for and interpret authentication events, and identified the correct Okta support channels including the Support Portal, Okta Community, and Okta Status Page.
 
 
 
