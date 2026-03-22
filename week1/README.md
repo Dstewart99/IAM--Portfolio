@@ -1,5 +1,5 @@
 
-# Week 1 – Entra ID Labs
+# Entra ID Labs
 
 
 ## Day 1 focuses on creating internal users and security groups that I’ll use later for Conditional Access and PIM labs.
