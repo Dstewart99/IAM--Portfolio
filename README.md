@@ -61,7 +61,7 @@ Before diving into Entra ID and Okta labs, I documented my core IAM and Identity
 - Okta vs Entra ID: Summarized key differences in integration style, strengths/use cases, and which system is treated as the “source of truth,” captured in a two‑column comparison.
 
 
-## 📂 Weekly Progress (WEEK 3)
+## 📂 IAM in Practice
 **Goal:** Connect IAM tools and concepts to real‑world IAM analyst responsibilities.
 
 ### 🔥 Topics Covered
