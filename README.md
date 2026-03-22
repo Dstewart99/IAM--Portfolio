@@ -54,7 +54,7 @@ Before diving into Entra ID and Okta labs, I documented my core IAM and Identity
 **Goal:** Get comfortable with Okta as an SSO and MFA platform.
 
 [OKTA](week2)
-### 🔥 Topics Covered (Okta Labs)
+### 🔥 Topics Covered 
 
 - **Admin Console & Foundations:** Explored the Okta Admin Console layout (Dashboard, Directory, Applications, Security, Workflow, Reports) and mapped key features to the four exam domains.
 
