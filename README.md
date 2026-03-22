@@ -52,7 +52,7 @@ Before diving into Entra ID and Okta labs, I documented my core IAM and Identity
 ## 📂 Identity Labs: Okta
 **Goal:** Get comfortable with Okta as an SSO and MFA platform.
 
-Week 2–[OKTA](week2)
+[OKTA](week2)
 ### 🔥 Topics Covered
 - Okta users and groups: Navigated the Okta Admin Console, created users and groups, and compared the user/group experience with Entra ID.
 - App integrations and SSO basics: Reviewed what SSO is (SAML/OIDC at a high level), added a sample application to Okta, and documented the SSO flow in 4–5 steps.
