@@ -54,12 +54,24 @@ Before diving into Entra ID and Okta labs, I documented my core IAM and Identity
 **Goal:** Get comfortable with Okta as an SSO and MFA platform.
 
 [OKTA](week2)
-### 🔥 Topics Covered
-- Okta users and groups: Navigated the Okta Admin Console, created users and groups, and compared the user/group experience with Entra ID.
-- App integrations and SSO basics: Reviewed what SSO is (SAML/OIDC at a high level), added a sample application to Okta, and documented the SSO flow in 4–5 steps.
-- MFA policies: Explored Okta MFA factors, created or edited an MFA policy (who, when, which factor), and compared Okta MFA with Entra Conditional Access in a small table.
-- Group rules and automation: Configured an Okta group rule to auto‑assign groups based on user attributes and tied this to JML automation.
-- Okta vs Entra ID: Summarized key differences in integration style, strengths/use cases, and which system is treated as the “source of truth,” captured in a two‑column comparison.
+### 🔥 Topics Covered (Okta Labs)
+
+- **Admin Console & Foundations:** Explored the Okta Admin Console layout (Dashboard, Directory, Applications, Security, Workflow, Reports) and mapped key features to the four exam domains.
+
+- **Universal Directory & Profiles:** Practiced creating user profiles with standard and custom attributes, configuring profile mappings between Okta and app profiles, and understanding attribute types and profile mastering. 
+
+- **AD Integration & Lifecycle:** Reviewed Okta AD Agent architecture, import and matching rules, delegated authentication behavior, and JIT vs. scheduled imports, then walked through troubleshooting scenarios. 
+
+- **Groups, Rules, and Group Push:** Created Okta, AD-sourced, and app groups, built group rules to auto-assign users based on attributes, and tested group push to downstream applications.  
+
+- **SSO & Federation Protocols:** Configured a SAML application in the dev tenant, tested SP-initiated and IdP-initiated flows, and reviewed SAML, OIDC, SWA, and OIN integration concepts. 
+
+- **Provisioning & Automation:** Enabled provisioning for an app (create, update, deactivate), validated auto-deprovisioning behavior, and implemented lifecycle automation with group-based assignments. 
+
+- **Security, MFA, and Policies:** Created MFA enrollment and sign-on policies, compared factor types, and practiced policy hierarchy and precedence for secure access control. 
+
+- **Admin Roles, Self-Service, and Operations:** Reviewed admin roles (Super Admin, Org Admin, App Admin, Help Desk Admin), end-user self-service features, mobile options (Okta Mobile vs OMM), API tokens, System Log, and reporting. 
+
 
 
 ## 📂 IAM in Practice
