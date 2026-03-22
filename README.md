@@ -48,7 +48,7 @@ Before diving into Entra ID and Okta labs, I documented my core IAM and Identity
 - **Multifactor Authentication (MFA):** Enabled per‑user MFA for a lab user, reviewed MFA service settings, and configured MFA account lockout thresholds and timers to protect against MFA abuse.
 
 
-
+-----------------
 
 ## 📂 Identity Labs: Okta
 **Goal:** Get comfortable with Okta as an SSO and MFA platform.
