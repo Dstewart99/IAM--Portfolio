@@ -18,7 +18,7 @@ Document my hands-on identity labs IAM study plan focused on:
 - Joiner–Mover–Leaver (JML) lifecycle
 - Least privilege, RBAC, and access reviews
 - Microsoft Entra ID (Azure AD) and Active Directory
-- Okta fundamentals (SSO/MFA) through self‑study labs
+- Okta SSO, MFA, lifecycle management, and security policies (Okta Certified Professional)
 
 ---
 ## IAM Foundations
@@ -94,7 +94,7 @@ Before diving into Entra ID and Okta labs, I documented my core IAM and Identity
 - **Identity lifecycle:** Joiner–Mover–Leaver (provisioning, access changes, deprovisioning).
 - **Access control:** Least privilege, RBAC, Segregation of Duties (SoD).
 - **Microsoft stack:** Active Directory and Entra ID (users, groups, Conditional Access, basic PIM).
-- **In progress:** Okta fundamentals (SSO, MFA, group rules) through labs and self‑study.
+- **In progress:** Okta: SSO, SAML, MFA enforcement, lifecycle management, and troubleshooting through hands-on labs
 - **Operations:** 3+ years handling daily access requests and identity tickets in an M365/AD-heavy help desk environment.
 
 
