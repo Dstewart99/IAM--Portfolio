@@ -128,4 +128,64 @@ Practice deactivating and deleting a user account in Okta Identity Engine (OIE) 
 - Okta permanently deletes customer data within 30 days of account deletion
 - Admins receive an email listing all users deactivated in the past 30 minutes
 
+--------------
+# Lab 03 – Suspend and Unsuspend Users in Okta OIE
+
+## Objective
+Practice suspending and unsuspending a user account in Okta Identity Engine (OIE) via the Admin Console.
+
+## Environment
+- Okta Integrator Org (OIE)
+- Admin Console → Directory → People
+
+## Exam Relevance
+- User lifecycle management
+- Understanding when to suspend vs deactivate vs delete
+
+---
+
+## Key Concepts
+
+Suspension is a temporary state — useful for:
+- Contract or temporary workers
+- Employees on leave of absence
+- Reviewing a departed user's group and app assignments before deactivating
+
+> Unlike deactivation, a suspended user retains all group memberships and app assignments. Everything is reinstated when the user is unsuspended.
+
+---
+
+## Steps
+
+### Part 1 – Suspend a User
+
+1. In the Admin Console, go to **Directory > People**
+2. Search for the user by first name, email, or username
+3. Click the username to open their profile
+4. Click **More Actions → Suspend**
+5. User status changes to **Suspended**
+
+### Part 2 – Unsuspend a User
+
+1. In the Admin Console, go to **Directory > People**
+2. In the left menu, click **Suspended** to filter by suspended users
+3. Click the username to open their profile
+4. Click **Activate**
+5. User status returns to **Active**
+
+---
+
+## Screenshots
+- [User Active Status Before Suspension](suspend-before.png)
+- [Suspend Option in More Actions](suspend-action.png)
+- [User Suspended Status](suspend-after.png)
+- [User Reactivated Status](unsuspend-after.png)
+
+---
+
+## Notes
+- Suspended users cannot log in but retain all group and app memberships
+- Unsuspending a user restores access immediately
+- Use suspension for temporary situations — use deactivation for permanent removal
+
 
