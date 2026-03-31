@@ -1,0 +1,62 @@
+# Lab 01 – Add Users Manually in Okta OIE
+
+## Objective
+Practice manually creating a user in Okta Identity Engine (OIE) via the Admin Console.
+
+## Environment
+- Okta Integrator Org (OIE)
+- Admin Console → Directory → People
+
+## Exam Relevance
+- User lifecycle management
+- Understanding activation methods and resulting user states
+
+---
+
+## Steps
+
+### 1. Navigate to Directory → People
+- In the Admin Console, go to **Directory > People**
+- Click **Add Person**
+
+### 2. Fill Out the Add Person Form
+
+| Field | Value Used |
+|---|---|
+| User Type | User (default) |
+| First Name | Dee |
+| Last Name | Job |
+| Username | deejob101@gmail.com |
+| Primary Email | deejob101@gmail.com |
+| Secondary Email | *(left blank)* |
+| Groups | *(left blank)* |
+| Activation | Activate now |
+| I will set password | *(unchecked — Okta sends activation email)* |
+
+### 3. Save the User
+- Click **Save**
+- Okta sends an activation email to the primary email address
+
+---
+
+## Screenshots
+
+**Add Person form filled out:**
+![Add Person Form](screenshots/add-person-form.png)
+
+
+
+---
+
+## Key Concepts
+
+| Activation Method | Resulting User State |
+|---|---|
+| Activate now (no password set) | Pending Activation → Active (after email click) |
+| Activate now (password set by admin) | Active immediately |
+| Activate later | Staged |
+
+## Notes
+- Username must be in email format
+- "User must change password on first login" appears only when admin sets the password
+- Staged users receive no email and cannot log in until activated
