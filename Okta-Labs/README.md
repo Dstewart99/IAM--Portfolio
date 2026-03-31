@@ -42,7 +42,7 @@ Practice manually creating a user in Okta Identity Engine (OIE) via the Admin Co
 ## Screenshots
 
 **Add Person form filled out:**
-![Add Person Form](create_profile.png)
+- [Add Person Form](create_profile.png)
 
 
 
