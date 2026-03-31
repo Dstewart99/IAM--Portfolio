@@ -66,4 +66,7 @@ Practice manually creating a user in Okta Identity Engine (OIE) via the Admin Co
 - Username must be in email format
 - "User must change password on first login" appears only when admin sets the password
 - Staged users receive no email and cannot log in until activated
-- -----
+- -------
+
+
+
