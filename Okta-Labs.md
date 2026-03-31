@@ -1,4 +1,3 @@
-
 # Lab 01 – Add Users Manually in Okta OIE
 
 ## Objective
@@ -38,24 +37,14 @@ Practice manually creating a user in Okta Identity Engine (OIE) via the Admin Co
 - Click **Save**
 - Okta sends an activation email to the primary email address
 
-### 4. Check Email & Activate
-- Open deejob101@gmail.com
-- Click the activation link in the Okta email
-- Set password on first login
-
 ---
 
 ## Screenshots
-<!-- Add screenshots below -->
 
 **Add Person form filled out:**
 ![Add Person Form](screenshots/add-person-form.png)
 
-**Activation email received:**
-![Activation Email](screenshots/activation-email.png)
 
-**User status after activation:**
-![User Active Status](screenshots/user-active-status.png)
 
 ---
 
