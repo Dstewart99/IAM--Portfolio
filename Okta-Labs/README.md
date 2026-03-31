@@ -45,10 +45,10 @@ Practice manually creating a user in Okta Identity Engine (OIE) via the Admin Co
 - [Add Person Form](create_profile.png)
 
 **Activation email received:**
-![Activation Email](screenshots/activation-email.png)
+- [Add Person Form](Activation_email.png)
 
 **User status after activation:**
-![User Active Status](screenshots/user-active-status.png)
+- [Add Person Form](User_Status.png)
 
 
 
