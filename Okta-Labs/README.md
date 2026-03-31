@@ -44,6 +44,11 @@ Practice manually creating a user in Okta Identity Engine (OIE) via the Admin Co
 **Add Person form filled out:**
 - [Add Person Form](create_profile.png)
 
+**Activation email received:**
+![Activation Email](screenshots/activation-email.png)
+
+**User status after activation:**
+![User Active Status](screenshots/user-active-status.png)
 
 
 
@@ -61,3 +66,4 @@ Practice manually creating a user in Okta Identity Engine (OIE) via the Admin Co
 - Username must be in email format
 - "User must change password on first login" appears only when admin sets the password
 - Staged users receive no email and cannot log in until activated
+- -----
