@@ -67,6 +67,65 @@ Practice manually creating a user in Okta Identity Engine (OIE) via the Admin Co
 - "User must change password on first login" appears only when admin sets the password
 - Staged users receive no email and cannot log in until activated
 - -------
+# Lab 02 – Deactivate and Delete User Accounts in Okta OIE
 
+## Objective
+Practice deactivating and deleting a user account in Okta Identity Engine (OIE) via the Admin Console.
+
+## Environment
+- Okta Integrator Org (OIE)
+- Admin Console → Directory → People
+
+## Exam Relevance
+- User lifecycle management
+- Understanding the difference between suspended, deactivated, and deleted states
+
+---
+
+## Key Concepts
+
+| Action | User Loses App Access | Admin Roles Revoked | Factors Removed | Removed from Groups | Permanent |
+|---|---|---|---|---|---|
+| Suspended | No | No | No | No | No |
+| Deactivated | Yes | Yes | No | No | No |
+| Deleted | Yes | Yes | Yes | Yes | Yes |
+
+> Note: A user must be deactivated before they can be deleted. Deletion cannot be undone.
+
+---
+
+## Steps
+
+### Part 1 – Deactivate a User
+
+1. In the Admin Console, go to **Directory > People**
+2. Select the user account to deactivate
+3. Click **More Actions → Deactivate**
+4. Click **Deactivate** in the confirmation dialog
+5. User status changes from **Active → Deactivated**
+
+### Part 2 – Delete a User
+
+1. In the Admin Console, go to **Directory > People**
+2. Search for the deactivated user
+3. Click the username to open their profile
+4. Click **Delete**
+5. Click **Delete** in the confirmation dialog to permanently remove the account
+
+---
+
+## Screenshots
+- [User Active Status Before Deactivation](deactivate-before.png)
+- [Deactivation Confirmation Dialog](deactivate-confirm.png)
+- [User Deactivated Status](deactivate-after.png)
+- [Delete Confirmation Dialog](delete-confirm.png)
+
+---
+
+## Notes
+- Deactivated users are removed from app access but remain in all Okta groups
+- Deleted users have their username freed up for reuse
+- Okta permanently deletes customer data within 30 days of account deletion
+- Admins receive an email listing all users deactivated in the past 30 minutes
 
 
