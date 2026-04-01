@@ -262,8 +262,4 @@ Practice assigning and removing application access for an individual user in Okt
 
 - ---------
 
-## Screenshots
-- [User Profile Applications Tab](assign-apps-tab.png)
-- [Assign Applications Dialog](assign-apps-dialog.png)
-- [App Successfully Assigned](assign-apps-confirmed.png)
 
