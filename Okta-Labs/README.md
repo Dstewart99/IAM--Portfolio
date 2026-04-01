@@ -260,6 +260,61 @@ Practice assigning and removing application access for an individual user in Okt
 - Use unassignment during offboarding to revoke specific app access without fully deactivating the account
 - --------------------
 
-- ---------
+# Lab 05 – Reset a User Password in Okta OIE
+
+## Objective
+Practice resetting a user password in Okta Identity Engine (OIE) via the Admin Console.
+
+## Environment
+- Okta Integrator Org (OIE)
+- Admin Console → Directory → People
+
+## Exam Relevance
+- User credential management
+- Understanding password reset options and their behavior
+
+---
+
+## Key Concepts
+
+Two reset options are available:
+
+| Option | What Happens |
+|---|---|
+| Send password reset email | Reset link sent to primary and secondary email — expires in 1 hour |
+| Create a temporary password | Admin sets a temp password — user must change it on next login |
+
+> Okta recommends securing all apps with MFA since admin-initiated resets bypass other factors.
+
+---
+
+## Steps
+
+1. In the Admin Console, go to **Directory > People**
+2. Find and select the user whose password you want to reset
+3. Click **Reset or Remove password**
+4. Choose a reset option:
+   - **Send a password reset email** — sends a reset link to the user's primary and secondary email
+   - **Create a temporary password** — sets a temp password and marks the account as expired
+5. Optional: Select **Sign out user** to end all active sessions on devices and browsers
+6. Click **Reset password**
+
+---
+
+## Screenshots
+- [Reset Confirmation](reset-password-confirmed.png)
+
+---
+
+## Notes
+- The email reset link expires after 1 hour
+- Temporary passwords force a password change on next login
+- For AD-sourced users — the original AD password does not expire when Okta resets it
+- Admin-initiated resets do not require the user to provide other factors (MFA)
+- Use "Sign out user" to immediately terminate all active sessions during a security incident
+
+- ---------------
+
+
 
 
