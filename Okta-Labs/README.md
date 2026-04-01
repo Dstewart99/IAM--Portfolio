@@ -189,10 +189,10 @@ Suspension is a temporary state — useful for:
 - Use suspension for temporary situations — use deactivation for permanent removal
 
 ---------------------------------
-# Lab 04 – Assign Applications to Users in Okta OIE
+# Lab 04 – Assign and Unassign Applications to Users in Okta OIE
 
 ## Objective
-Practice assigning an application to an individual user in Okta Identity Engine (OIE) via the Admin Console.
+Practice assigning and removing application access for an individual user in Okta Identity Engine (OIE) via the Admin Console.
 
 ## Environment
 - Okta Integrator Org (OIE)
@@ -201,19 +201,25 @@ Practice assigning an application to an individual user in Okta Identity Engine 
 ## Exam Relevance
 - App assignment and access management
 - Understanding direct user assignment vs group assignment
+- App access removal during offboarding or role changes
 
 ---
 
 ## Key Concepts
 
 - Apps can be assigned directly to individual users or to entire groups
-- The username used to sign into an app may differ from the user's Okta username
 - Assigned apps appear on the user's **My Apps** page
-- Entitlement assignment requires Okta Identity Governance (not needed for this lab)
+- The username used to sign into an app may differ from the user's Okta username
+- If a user was assigned to an app via a **group**, you must either:
+  - Remove the user from the group, OR
+  - Unassign the app from the entire group
+- You cannot directly unassign an app from a user if access came through group membership
 
 ---
 
 ## Steps
+
+### Part 1 – Assign an Application
 
 1. In the Admin Console, go to **Directory > People**
 2. Search for the user by first name, email, or username
@@ -222,71 +228,42 @@ Practice assigning an application to an individual user in Okta Identity Engine 
 5. Click **Assign Applications**
 6. Search for or select an application from the list
 7. Click **Assign**
-8. Enter the app username and password if prompted (this may differ from the Okta username)
+8. Enter the app username and password if prompted
 9. Click **Save and Go Back**
+
+### Part 2 – Unassign an Application
+
+1. In the Admin Console, go to **Directory > People**
+2. Search for the same user
+3. Click the username to open their profile
+4. Select the **Applications** tab
+5. Find the application to remove and click **X**
+6. Click **OK** in the Unassign Application dialog to confirm
 
 ---
 
 ## Screenshots
+
 - [User Profile Applications Tab](assign-apps-tab.png)
 - [Assign Applications Dialog](assign-apps-dialog.png)
 - [App Successfully Assigned](assign-apps-confirmed.png)
+- [Unassign Application Dialog](unassign-dialog.png)
+  
 
 ---
 
 ## Notes
 - Direct user assignment is best for one-off access needs
 - For broader access, assign the app to a group instead
-- The app username entered here is the credential used to authenticate to the app itself, not Okta
-
+- The app username entered during assignment is the credential used to authenticate to the app itself, not Okta
+- Direct app unassignment takes effect immediately
+- Use unassignment during offboarding to revoke specific app access without fully deactivating the account
 - --------------------
-# Lab 04 – Assign Applications to Users in Okta OIE
 
-## Objective
-Practice assigning an application to an individual user in Okta Identity Engine (OIE) via the Admin Console.
-
-## Environment
-- Okta Integrator Org (OIE)
-- Admin Console → Directory → People
-
-## Exam Relevance
-- App assignment and access management
-- Understanding direct user assignment vs group assignment
-
----
-
-## Key Concepts
-
-- Apps can be assigned directly to individual users or to entire groups
-- The username used to sign into an app may differ from the user's Okta username
-- Assigned apps appear on the user's **My Apps** page
-- Entitlement assignment requires Okta Identity Governance (not needed for this lab)
-
----
-
-## Steps
-
-1. In the Admin Console, go to **Directory > People**
-2. Search for the user by first name, email, or username
-3. Click the username to open their profile
-4. Select the **Applications** tab
-5. Click **Assign Applications**
-6. Search for or select an application from the list
-7. Click **Assign**
-8. Enter the app username and password if prompted (this may differ from the Okta username)
-9. Click **Save and Go Back**
-
----
+- ---------
 
 ## Screenshots
 - [User Profile Applications Tab](assign-apps-tab.png)
 - [Assign Applications Dialog](assign-apps-dialog.png)
 - [App Successfully Assigned](assign-apps-confirmed.png)
-
----
-
-## Notes
-- Direct user assignment is best for one-off access needs
-- For broader access, assign the app to a group instead
-- The app username entered here is the credential used to authenticate to the app itself, not Okta
 
