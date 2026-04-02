@@ -42,13 +42,15 @@ Practice manually creating a user in Okta Identity Engine (OIE) via the Admin Co
 ## Screenshots
 
 **Add Person form filled out:**
-- [Add Person Form](create_profile.png)
+![Add Person form filled out](create_profile.png)
+
 
 **Activation email received:**
-- [Add Person Form](Activation_email.png)
+![Activation email received](Activation_email.png)
+
 
 **User status after activation:**
-- [Add Person Form](User_Status.png)
+![Add Person Form](User_Status.png)
 
 
 
@@ -115,10 +117,10 @@ Practice deactivating and deleting a user account in Okta Identity Engine (OIE) 
 ---
 
 ## Screenshots
-- [User Active Status Before Deactivation](deactivate-before.png)
-- [Deactivation Confirmation Dialog](deactivate-confirm.png)
-- [User Deactivated Status](deactivate-after.png)
-- [Delete Confirmation Dialog](delete-confirm.png)
+![User Active Status Before Deactivation](deactivate-before.png)
+![Deactivation Confirmation Dialog](deactivate-confirm.png)
+ ![User Deactivated Status](deactivate-after.png)
+![Delete Confirmation Dialog](delete-confirm.png)
 
 ---
 
@@ -176,10 +178,10 @@ Suspension is a temporary state — useful for:
 ---
 
 ## Screenshots
-- [User Active Status Before Suspension](suspend-before.png)
-- [Suspend Option in More Actions](suspend-action.png)
-- [User Suspended Status](suspend-after.png)
-- [User Reactivated Status](unsuspend-after.png)
+![User Active Status Before Suspension](suspend-before.png)
+![Suspend Option in More Actions](suspend-action.png)
+![User Suspended Status](suspend-after.png)
+![User Reactivated Status](unsuspend-after.png)
 
 ---
 
@@ -244,10 +246,10 @@ Practice assigning and removing application access for an individual user in Okt
 
 ## Screenshots
 
-- [User Profile Applications Tab](assign-apps-tab.png)
-- [Assign Applications Dialog](assign-apps-dialog.png)
-- [App Successfully Assigned](assign-apps-confirmed.png)
-- [Unassign Application Dialog](unassign-dialog.png)
+![User Profile Applications Tab](assign-apps-tab.png)
+![Assign Applications Dialog](assign-apps-dialog.png)
+![App Successfully Assigned](assign-apps-confirmed.png)
+![Unassign Application Dialog](unassign-dialog.png)
   
 
 ---
@@ -302,7 +304,7 @@ Two reset options are available:
 ---
 
 ## Screenshots
-- [Reset Confirmation](reset-password-confirmed.png)
+![Reset Confirmation](reset-password-confirmed.png)
 
 ---
 
