@@ -29,12 +29,12 @@
 
 ### 📸 Day 1 Screenshots
 
-- [Create user screen (screenshot)](Project.png)
+![Create user screen (screenshot)](Project.png)
 
-- [Users list](Screenshot.png)
-- [Review + create screen (screenshot)](Screenshot3.png)
+![Users list](Screenshot.png)
+![Review + create screen (screenshot)](Screenshot3.png)
 
-- [Groups – create security group](Create_group.png)
+![Groups – create security group](Create_group.png)
 
 
 ## Day 2 – Conditional Access
@@ -53,9 +53,9 @@ Day 2 focuses on using Conditional Access to require MFA when employees access a
 
 ### 📸 Day 2 Screenshots
 
-- [Policy targeting IAM-Test-Employees group (screenshot)](IAM-Test-Employees.png)
-- [Microsoft Service Trust selected as target app (screenshot)](Target_app.png)
-- [Grant controls requiring MFA (screenshot)](Grant.png)
+![Policy targeting IAM-Test-Employees group (screenshot)](IAM-Test-Employees.png)
+![Microsoft Service Trust selected as target app (screenshot)](Target_app.png)
+![Grant controls requiring MFA (screenshot)](Grant.png)
 
 
 
@@ -96,8 +96,8 @@ Day 3 focuses on using Microsoft Entra Privileged Identity Management to replace
 
 ### Day 3 Screenshots
 
-- [PIM – Security Reader eligible assignment (screenshot)](Security_Reader.png)
-- [PIM – Security Reader active assignment (screenshot)](Active.png)
+![PIM – Security Reader eligible assignment (screenshot)](Security_Reader.png)
+![PIM – Security Reader active assignment (screenshot)](Active.png)
 --------
 
 ### Day 4 – Entra Roles with Role-Assignable Groups
@@ -125,9 +125,9 @@ Focuses on assigning Microsoft Entra admin roles through a role-assignable group
 
 ### Day 4 Screenshots
 
-- [IAM-User-Admins role-assignable group (screenshot)](Groups.png)
-- [User Administrator assigned to IAM-User-Admins group (screenshot)](IAM-User-Admins.png)
-- [Test user showing inherited User Administrator role (screenshot)](proof-user-added.png)
+![IAM-User-Admins role-assignable group (screenshot)](Groups.png)
+![User Administrator assigned to IAM-User-Admins group (screenshot)](IAM-User-Admins.png)
+![Test user showing inherited User Administrator role (screenshot)](proof-user-added.png)
 
 ----
 ## Day 5 – Exercise: Perform basic Self-Service Password Reset (SSPR) tasks
@@ -138,20 +138,20 @@ In this exercise I learned where the self-service password reset (SSPR) feature 
 
 - Opened the **Microsoft Entra admin center** and went to  Password reset → Properties**. 
 - Reviewed the **Self service password reset enabled** options: **None** (no users), **Selected** (only selected groups), and **All** (all users). 
-- Set the value to **Selected**, chose my lab group (IAM-Test-Employees), and saved the configuration so only this group can use SSPR. - [SSPR properties for test group (screenshot)](SSPR_IAM-Test-Employees_properties.png.png)
+- Set the value to **Selected**, chose my lab group (IAM-Test-Employees), and saved the configuration so only this group can use SSPR. ![SSPR properties for test group (screenshot)](SSPR_IAM-Test-Employees_properties.png.png)
 
 ### Subtask 2 – Configure SSPR authentication methods
 
 - From **Password reset → Authentication methods**, set **Number of methods required to reset** to **1**, meaning users must verify with one authentication method before they can reset their password (the password itself does not count as a method). 
 - Selected **Email**, **Mobile phone**, and **Mobile app code** as the **Methods available to users** so they have multiple options for verification. 
-- Saved the configuration, completing the basic setup of authentication methods for SSPR. [SSPR Autentication – user and admin email alerts (screenshot)](SSPR.png)
+- Saved the configuration, completing the basic setup of authentication methods for SSPR. ![SSPR Autentication – user and admin email alerts (screenshot)](SSPR.png)
 
 
 ### Subtask 3 – Configure SSPR registration
 
 - Opened **Password reset → Registration**. 
 - Verified **Require users to register when signing in?** was set to **Yes** so users are prompted to register their SSPR methods during sign-in. 
-- Set **Number of days before users are asked to re-confirm their authentication information** to **90** days and saved the settings to keep registration data up to date. [SSPR registration – users re-confirm every 90 days (screenshot)](90days.png)
+- Set **Number of days before users are asked to re-confirm their authentication information** to **90** days and saved the settings to keep registration data up to date. ![SSPR registration – users re-confirm every 90 days (screenshot)](90days.png)
 
 
 
@@ -159,7 +159,7 @@ In this exercise I learned where the self-service password reset (SSPR) feature 
 
 - Went to **Password reset → Notifications**. 
 - Left **Notify users on password reset?** at the default value of **Yes** so users receive an email when their password is reset through SSPR. 
-- Changed **Notify all admins when other admins reset their password?** to **Yes**, then saved the configuration to increase visibility into privileged password reset activity. [SSPR notifications – user and admin email alerts (screenshot)](Notification.png)
+- Changed **Notify all admins when other admins reset their password?** to **Yes**, then saved the configuration to increase visibility into privileged password reset activity. ![SSPR notifications – user and admin email alerts (screenshot)](Notification.png)
 
 
 
@@ -187,7 +187,7 @@ In this exercise I explored the Microsoft Entra ID password protection capabilit
 
 - Set **Mode** to **Enforced** and selected **Save** so the custom banned password list and smart lockout settings actively apply to sign-ins and password changes.
 
-[Password protection – smart lockout and custom banned password list (screenshot)](Password_protection.png)
+![Password protection – smart lockout and custom banned password list (screenshot)](Password_protection.png)
 ----
 
 ## Day 7 – Perform basic Multifactor Authentication (MFA) tasks
@@ -199,7 +199,7 @@ In this exercise I explored the MFA setup process in Microsoft Entra ID, includi
 - Opened the **Microsoft Entra admin center** at `https://entra.microsoft.com`, went to **Identity → Users → All users**, and selected **Per-user MFA** from the top menu. 
 - Picked a lab user account (*Zack Johnson*), selected it, and chose **Enable MFA**. 
 - Confirmed the prompt explaining that an enrollment URL can be sent to the user so they can register MFA methods, then selected **Enable** and verified that the user’s status changed to **Enforced**. 
- [Enabled(screenshot)](enabled_disabled.png)
+ ![Enabled(screenshot)](enabled_disabled.png)
 
 ### Task 2 – Configure MFA account lockout settings
 
@@ -207,7 +207,7 @@ In this exercise I explored the MFA setup process in Microsoft Entra ID, includi
 - Set **Number of MFA denials to trigger account lockout** to **3**, **Minutes until account lockout counter is reset** to **180**, and **Minutes until account is automatically unblocked** to **15**, then saved the configuration.   
 - Briefly reviewed other MFA options such as **Fraud alert**, **Block/unblock users**, and **Notifications** to understand how administrators can respond to suspicious MFA activity. 
 
-[lockout configuration (screenshot)](Account_lockout.png)
+![lockout configuration (screenshot)](Account_lockout.png)
 
 
 
