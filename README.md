@@ -54,7 +54,7 @@ Before diving into Entra ID and Okta labs, I documented my core IAM and Identity
 ## 📂 Identity Labs: Okta
 **Goal:** Build hands-on, exam-level skills with Okta as an enterprise SSO, MFA, and lifecycle management platform, working toward the Okta Certified Professional certification. Labs are completed in a free Okta Developer Tenant and mapped directly to the Okta Certified Professional Performance Exam study guide.
 
-🔗 [Okta Labs](Okta-Labs)
+🔗 [Account Creation](Account-Creation)
 
 ### 🔥 Topics Covered 
 
