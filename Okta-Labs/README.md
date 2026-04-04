@@ -317,6 +317,42 @@ Two reset options are available:
 
 - ---------------
 
+# Lab 06: Create a Custom Attribute
 
+## Objective
+Create a custom user attribute in the Okta Universal Directory to extend the default user profile schema.
+
+## Environment
+- Okta Integrator Free Plan org
+- Admin Console
+
+## Steps
+
+1. Go to **Admin Console → Directory → Profile Editor**
+2. Select the **User (default)** profile
+3. Click **Add Attribute** and configure the following:
+
+| Field | Value |
+|-------|-------|
+| Data type | String |
+| Display name | Department |
+| Variable name | department |
+| Description | Employee department |
+| Enum | Unchecked |
+| Attribute required | Unchecked |
+| User permission | Read Only |
+
+4. Click **Save**
+
+## Screenshots
+- [Add Attribute Form](screenshots/add-attribute.png)
+
+
+## Why This Matters
+**IAM Relevance:** Custom attributes extend the identity schema to store metadata needed for policies, provisioning, and reporting.
+
+**Okta Platform Use:** The Department attribute can be used in Group Rules and Conditional Access Policies.
+
+**Business Value:** Enables consistent department-based access control across the organization.
 
 
