@@ -345,7 +345,7 @@ Create a custom user attribute in the Okta Universal Directory to extend the def
 4. Click **Save**
 
 ## Screenshots
-- [Add Attribute Form](screenshots/add-attribute.png)
+![Add Attribute Form](add-attribute.png)
 
 
 ## Why This Matters
@@ -354,5 +354,133 @@ Create a custom user attribute in the Okta Universal Directory to extend the def
 **Okta Platform Use:** The Department attribute can be used in Group Rules and Conditional Access Policies.
 
 **Business Value:** Enables consistent department-based access control across the organization.
+--------------------
+# Lab 07: Assign Admin Roles
+
+## Objective
+Assign a least privilege administrative role to a user in Okta.
+
+## Environment
+- Okta Integrator Free Plan org
+- Admin Console
+
+## Steps
+
+1. Go to **Admin Console → Directory → People**
+2. Select user **Jasmine Stewart**
+3. Click the **Admin Roles** tab
+4. Click **Add individual admin privileges**
+5. Assign the **Read Only Administrator** role
+6. Click **Save**
+
+## Screenshot
+![Assign Admin Role](assign-admin-role.png)
+
+## Why This Matters
+**IAM Relevance:** RBAC enforces least privilege by limiting admin access to only what is needed.
+
+**Okta Platform Use:** Prevents over-privileged accounts by splitting admin duties.
+
+**Business Value:** Reduces insider risk and meets compliance requirements for separation of duties.
+
+----------------------------
+
+# Lab 08: Update User Profile
+
+## Objective
+Update a user's profile attributes in Okta to reflect current information.
+
+## Environment
+- Okta Integrator Free Plan org
+- Admin Console
+
+## Steps
+
+1. Go to **Admin Console → Directory → People**
+2. Select user **Jasmine Stewart**
+3. Click the **Profile** tab
+4. Click **Edit**
+5. Update the **Title** field to **IT Support**
+6. Click **Save**
+
+## Screenshot
+![Update User Profile](update-user-profile.png)
+
+## Why This Matters
+**IAM Relevance:** Keeping user profile attributes current ensures accurate identity data across connected systems.
+
+**Okta Platform Use:** Profile updates propagate to downstream apps via provisioning, keeping access aligned with the user's current role.
+
+**Business Value:** Reduces access risk by ensuring user metadata reflects real organizational roles.
+
+--------------------
+# Lab 09: Create Groups
+
+## Objective
+Create a user group in Okta to enable role-based access control and streamlined application assignment.
+
+## Environment
+- Okta Integrator Free Plan org
+- Admin Console
+
+## Steps
+
+1. Go to **Admin Console → Directory → Groups**
+2. Click **Add Group**
+3. Configure the following:
+
+| Field | Value |
+|-------|-------|
+| Name | IT Security Team |
+| Description | This is the group who handles IT security |
+
+4. Click **Save**
+
+## Screenshot
+![IT Security Team Group](it-security-team-group.png)
+
+## Why This Matters
+**IAM Relevance:** Groups are foundational to RBAC, enabling scalable access management by role rather than individual user assignment.
+
+**Okta Platform Use:** Groups can be used to assign applications, enforce policies, and trigger group rules automatically.
+
+**Business Value:** Reduces administrative overhead and ensures consistent access across users with the same job function.
+------------------------
+# Lab 10: Create Group Rules
+
+## Objective
+Create a group rule in Okta to automatically assign users to a group based on a profile attribute.
+
+## Environment
+- Okta Integrator Free Plan org
+- Admin Console
+
+## Steps
+
+1. Go to **Admin Console → Directory → Groups**
+2. Click the **Rules** tab
+3. Click **Add Rule** and configure the following:
+
+| Field | Value |
+|-------|-------|
+| Name | Assign IT Security Team |
+| IF | User attribute — department — Equals — IT |
+| THEN Assign to | IT Security Team |
+
+4. Click **Save**
+5. Click **Actions → Activate**
+
+## Screenshots
+![Add Rule Form](add-rule-form.png)
+![Rule Active](rule-active.png)
+
+## Why This Matters
+**IAM Relevance:** Group rules automate user provisioning based on identity attributes, reducing manual assignment and human error.
+
+**Okta Platform Use:** Rules evaluate user profiles continuously and assign group membership dynamically as attributes change.
+
+**Business Value:** Ensures users receive the correct access automatically when onboarded or when their role changes.
+-----------------------
+
 
 
