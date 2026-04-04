@@ -373,6 +373,21 @@ Assign a least privilege administrative role to a user in Okta.
 5. Assign the **Read Only Administrator** role
 6. Click **Save**
 
+   ### Method 2: Assign via Groups
+1. Go to **Admin Console → Directory → Groups**
+2. Select the group
+3. Click the **Admin Roles** tab
+4. Assign the desired admin role to the group
+5. Click **Save**
+
+   ### Method 3: Assign via Security Administrators
+1. Go to **Admin Console → Security → Administrators**
+2. Click the **+ Add Administrator** button
+3. Search for the user by name
+4. Select the desired role
+5. Click **Add Administrator**
+   
+
 ## Screenshot
 ![Assign Admin Role](assign-admin-role.png)
 
