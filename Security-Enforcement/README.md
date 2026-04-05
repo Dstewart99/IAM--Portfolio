@@ -61,4 +61,28 @@ Configure authenticators, enrollment policies, global session policies, and auth
 
 ### Steps
 1. Go to **Security → Authentication Policies**
-2. Click **App sign-in → Add a poli
+2. Click **App sign-in → Add a policy**
+3. Name the policy **IT Security Team Policy**
+4. Click **Save**
+5. Click **Add rule** and configure:
+
+| Field | Value |
+|-------|-------|
+| Rule name | Require MFA for IT Security |
+| IF Group | IT Security Team |
+| THEN Access | Allowed after successful authentication |
+| Authenticate with | Any 2 factor types |
+
+6. Click **Save**
+
+### Screenshot
+![Authentication Policy Rule](authentication-policy-rule.png)
+
+---
+
+## Why This Matters
+**IAM Relevance:** Security policies enforce least privilege and MFA requirements to protect identity infrastructure.
+
+**Okta Platform Use:** Global Session Policies control session lifetime org-wide while Authentication Policies apply granular MFA requirements per app or group.
+
+**Business Value:** Reduces risk of unauthorized access, enforces compliance requirements, and protects high-value resources with layered authentication controls.
