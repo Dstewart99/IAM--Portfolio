@@ -58,6 +58,9 @@ Before diving into Entra ID and Okta labs, I documented my core IAM and Identity
 
 🔗 [Application Setup with OIN](Application-Setup-with-OIN/README.md)
 
+🔗 [Security Enforcement](Security-Enforcement/README.md)
+
+
 ### 🔥 Topics Covered 
 
 - **User Management & Administration:** Created user accounts manually in the Okta Admin Console, added custom profile attributes to the Universal Directory, edited user profiles, and managed account status. Created groups, manually assigned users, and built automated group rules to assign users based on profile attributes. Assigned a standard administrator role (Help Desk Admin) to a group and created a custom admin role with a scoped resource set to enforce least-privilege delegation.
