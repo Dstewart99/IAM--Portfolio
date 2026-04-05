@@ -65,16 +65,16 @@ Before diving into Entra ID and Okta labs, I documented my core IAM and Identity
 
 ### 🔥 Topics Covered
 
-**Account Creation (25%)**
+**Account Creation**
 Created user accounts manually in the Okta Admin Console and added custom profile attributes to the Universal Directory. Assigned administrative roles using least privilege principles. Updated user profiles and created groups with automated group rules to assign users based on profile attributes.
 
-**Application Setup with OIN (30%)**
+**Application Setup with OIN**
 Integrated an application from the Okta Integration Network (OIN) using SAML 2.0 Single Sign-On. Configured lifecycle management settings including user creation, attribute updates, and deactivation. Assigned a group to the application and verified user access.
 
-**Security Enforcement (25%)**
+**Security Enforcement**
 Added and removed authenticators and configured enrollment options for authenticator policies. Created a Global Session Policy rule to enforce MFA org-wide. Defined an application-level Authentication Policy and rule requiring MFA for the IT Security Team group.
 
-**Attribute Mapping and Offboarding (20%)**
+**Attribute Mapping and Offboarding**
 Mapped Okta Universal Directory attributes to app-specific attributes using the Profile Editor. Practiced the offboarding workflow by deactivating a user account and verifying that access to all connected applications was immediately revoked, supporting the Leaver stage of the JML lifecycle.
 
 
