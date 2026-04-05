@@ -17,23 +17,38 @@ Add a pre-built app integration from the Okta Integration Network (OIN), configu
 4. Click **Add Integration**
 
 ### Configure General Settings
-5. Set **Instance Type** to **Production**
-6. Enter your **Salesforce Organization ID**
-7. Click **Next**
+1. Set **Instance Type** to **Production**
+2. Enter your **Salesforce Organization ID**
+3. Click **Next**
 
 ### Configure Sign-On Options
-8. Select **SAML 2.0** as the sign-on method
-9. Click **Done**
+1. Select **SAML 2.0** as the sign-on method
+2. Click **Done**
+
+### Set Up Lifecycle Management
+1. Click the **Provisioning** tab
+2. Click **Configure API Integration**
+3. Check **Enable API Integration**
+4. Click **Authenticate with Salesforce.com**
+5. Click **To App** → **Edit**
+6. Enable **Create Users**, **Update User Attributes**, **Deactivate Users**
+7. Click **Save**
 
 ### Assign Group to Application
-10. Click the **Assignments** tab
-11. Click **Assign → Assign to Groups**
-12. Select **IT Security Team**
-13. Click **Done**
+1. Click the **Assignments** tab
+2. Click **Assign → Assign to Groups**
+3. Select **IT Security Team**
+4. Click **Done**
+
+### Verify User Access
+1. Click the **Assignments** tab
+2. Click **People** filter
+3. Confirm assigned users appear with **Active** status
 
 ## Screenshots
 ![Sign-On Options](sign-on-options.png)
 ![Group Assignment](group-assignment.png)
+
 
 ## Why This Matters
 **IAM Relevance:** OIN integrations enable centralized SSO and provisioning across enterprise applications.
