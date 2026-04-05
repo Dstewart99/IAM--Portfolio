@@ -60,7 +60,7 @@ Before diving into Entra ID and Okta labs, I documented my core IAM and Identity
 
 🔗 [Security Enforcement](Security-Enforcement/README.md)
 
-🔗 [Customer Support Practices](Customer-Support-Practices)
+🔗 [Attribute Mapping and Offboarding](Attribute-Mapping-and-Offboarding)
 
 
 ### 🔥 Topics Covered 
