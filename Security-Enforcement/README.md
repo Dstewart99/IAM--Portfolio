@@ -1,4 +1,4 @@
-# Lab 02: Security Enforcement
+# Lab 01: Security Enforcement
 
 ## Objective
 Configure authenticators, enrollment policies, global session policies, and authentication policies to enforce security controls across the Okta org.
